@@ -2,7 +2,8 @@
 
 Mrs. Wolf is a spinoff keybard layout derived from Colemak-DH, taking
 learnings from more modern layouts to improve comfort: much less stretching,
-fewer redirects, better SFBs, etc.
+fewer redirects, better SFBs, etc. (Only ever tried with matrix-like
+keyboard.)
 
 ## Goals
 
@@ -183,6 +184,9 @@ v x c d q   z h , . /
 - Lsb:  0.735%
 - BadRedirects: 0.108%
 
+The numbers are better than they look: `ny`/`yn` are a really easy alt, and
+SFB is actually 0.802% if you discount it.
+
 The main challenges with this are:
 
 - `one` DSFB has no good workaround.
@@ -211,16 +215,22 @@ Reading many insightful reddit threads on `r/KeyboardLayouts`.
 Several Colemak spinoffs are great. But none went very far to eliminate
 lateral stretching. In the end, I realized that `m` was the only huge culprit.
 But `v` and `b` were also great to move. I got comfortable enough with Canary,
-and felt some great improvements, but it was still too stretchy.
+and felt some great improvements, but it was still too stretchy (and has the
+`one` showstopper).
 
-Nerts and its ilk are pretty neat. I got far enough with Graphite to be able
-to type (abysmally) and feel some clean movement, but it was way too hard to
-retrain my brain to do anything in Emacs, and it felt like it would have been
-months before I could be productive.
+Nerts and its ilk are pretty neat. I got far enough with Graphite (tweaked to
+`nrst`/`heia`) to be able to type (slooowly) and feel some clean/natural
+movement, but it was way too hard to retrain my brain to do anything in Emacs,
+and it felt like it would have been months before I could be productive. There
+was also the major issue of winding up with a `pnb` column on left-pinky (or
+anywhere) — that was way too much for Emacs pinky to handle. Really, `p`(rev)
+and `n`(ext) (and `b`(ack)) need to be on all different fingers.
 
 The Layout Playground is an amazing tool for experimenting. There are plenty
-of standard layouts there to play with/start from. I was surprised how easy it
-to severely tweak a layout and keep it usable with good stats.
+of standard layouts there to play with/start from. I was amazed by how easy it
+is to severely tweak a layout and keep it usable with good stats.
+
+Left and right hand design can be done somewhat independently.
 
 [1]: https://cyanophage.github.io/
 [2]: https://www.worldwidewords.org/qa/qa-ini1.htm
