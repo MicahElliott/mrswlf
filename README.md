@@ -13,6 +13,7 @@ keyboard.)
 - Reduce redirects
 - Alt-finger/pivot workarounds possible for _every_ (D)SFB
 - Progressive intermediate-step layout(s)
+- Avoid untenable editor combo-key columns (eg, `pnb`, explanation below)
 
 It's ~easy~ not impossible to learn if you've been stuck in Colemak land and
 itching to work your way out: only ~4 high-impact keys have changed
@@ -119,12 +120,14 @@ makes it a pretty good thumb letter.
 - `o` — Very challenging being on thumb. Wonder if it's worth trying only this
   move independently for a week to see if it's workable for you. Other layouts
   put `e` and `t` on thumb to great success, so we know it's possible. Just
-  takes a lot of focus on learning. I recommend omitting it from your typing
-  trainer while learning the other changes. The reason `o` has nowhere
-  "normal" to go it because we take it as a given that we're stuck with `n` on
-  right-index. `o` can't stay on right-pinky because of the awful `you`
-  redirect. `o` can't go above or below `e` because `one` would be even worse
-  than `you`.
+  takes a lot of focus on learning. Was cutting my overall speed in half for
+  several days. I recommend omitting it from your typing trainer while
+  learning the other changes. The reason `o` has nowhere "normal" to go is
+  because we take it as a given that we're stuck with `n` on right-index. `o`
+  can't stay on right-pinky because of the awful `you` redirect. `o` can't go
+  above or below `e` because `one` would be even worse than `you`. And
+  anywhere else, SFBs go crazy. So either `n` or `o` has to lose their place
+  on the vowel hand.
 
 - `b` — Kinda hard adjustment, but feels amazing. On this layout: if you feel
   yourself stretching, you're probably reaching far the wrong key.
