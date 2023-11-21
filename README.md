@@ -13,10 +13,11 @@ fewer redirects, better SFBs, etc.
 - Alt-finger/pivot workarounds possible for _every_ (D)SFB
 - Progressive intermediate-step layout(s)
 
-It's easy to learn if you've been stuck in Colemak land and struggling to work
-your way out: only ~4 high-impact keys have changed significantly (10 total),
-and most feel intuitive: **l o m a**. The home row has all the same keys and
-only **m** and **a** have changed (capitalized significant changes).
+It's ~easy~ not impossible to learn if you've been stuck in Colemak land and
+itching to work your way out: only ~4 high-impact keys have changed
+significantly (10 total), and most feel intuitive: **l o m a**. The home row
+has all the same keys and only **m** and **a** have changed (capitalized
+significant changes).
 
 ```
 w L f p J     B u y '
@@ -201,9 +202,29 @@ Lots of studying of existing layouts at [Cyanophage][1].
 Experimenting with [Oxey's Layout Playground][3] (doesn't work on Linux
 afaict).
 
-Reading many reddit insightful threads on `r/KeyboardLayouts`.
+[Graphite][5]'s [Layout Doc][7] is a mind-expanding read.
+
+Reading many insightful reddit threads on `r/KeyboardLayouts`.
+
+## Interesting learnings
+
+Several Colemak spinoffs are great. But none went very far to eliminate
+lateral stretching. In the end, I realized that `m` was the only huge culprit.
+But `v` and `b` were also great to move. I got comfortable enough with Canary,
+and felt some great improvements, but it was still too stretchy.
+
+Nerts and its ilk are pretty neat. I got far enough with Graphite to be able
+to type (abysmally) and feel some clean movement, but it was way too hard to
+retrain my brain to do anything in Emacs, and it felt like it would have been
+months before I could be productive.
+
+The Layout Playground is an amazing tool for experimenting. There are plenty
+of standard layouts there to play with/start from. I was surprised how easy it
+to severely tweak a layout and keep it usable with good stats.
 
 [1]: https://cyanophage.github.io/
 [2]: https://www.worldwidewords.org/qa/qa-ini1.htm
 [3]: https://oxey.dev/playground/index.html
 [4]: https://github.com/MicahElliott/anatak60
+[5]: https://github.com/rdavison/graphite-layout
+[7]: https://docs.google.com/document/d/1_a5Nzbkwyk1o0bvTctZrtgsee9jSP-6I0q3A0_9Mzm0/edit
