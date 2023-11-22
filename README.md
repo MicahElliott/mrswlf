@@ -1,9 +1,9 @@
-# Mrs. Wolf
+# Mrs. Wolf (aka "thumbo", "thumb-o-tron")
 
-Mrs. Wolf is a spinoff keybard layout derived from Colemak-DH, taking
-learnings from more modern layouts to improve comfort: much less stretching,
-fewer redirects, better SFBs, etc. (Only ever tried with matrix-like
-keyboard.)
+Mrs. Wolf is a keyboard layout derived from Colemak-DH (a quick-learn
+spinoff), taking ideas from more modern layouts to improve comfort: much less
+stretching, fewer redirects, better SFBs, etc. (Only ever tried with
+matrix-like keyboard.)
 
 ## Goals
 
@@ -33,12 +33,17 @@ V x c d Q   Z h , . /
 - Lsb:  0.504%
 - BadRedirects: 0.142%
 
+Those are the simple stats I seem to care most about; all listed are from
+[Oxey's Layout Playground][3] analyzer with punctuation turned off (for most
+level playing field).
+
 A few locations are still suboptimal: `p`, `c`, `n` all cause a lot of
 theoretical SFBs, but it's a very good compromise for maintaning the Colemak
-feel. In fact, I consider SFBs to be 0% if you're willing to learn to
+feel. In fact, I consider SFBs to be nearly 0% if you're willing to learn to
 alt-finger stacks like `sc`, `pt`, etc; Mrs. Wolf was designed to make them
-all reasonable. And the LSBs are mostly from `k`, and
-kinda negligible given an easy hand-shift for `kn`/`nk`.
+all reasonable. And the LSBs are mostly from `k`, and kinda negligible given
+an easy hand-shift for `kn`/`nk`. If you swap the `k` and `q` (or `k` and `j`)
+the SFBs go down to `0.696%`!
 
 Here's what's the same as Colemak-DH (if you squint at `w` and `k` a little):
 
@@ -65,8 +70,7 @@ z x c d v   k h , . /
 ```
 
 You won't believe this, but you can stop here and call it good if you like.
-The stats are already getting shiny and significantly better than Colemak-DH
-(all stats are from [Oxey's Layout Playground][3] analyzer).
+The stats are already getting shiny and significantly better than Colemak-DH.
 
 - Sfb:  0.979%
 - Dsfb: 6.973%
@@ -119,18 +123,18 @@ makes it a pretty good thumb letter.
 
 - `o` — Very challenging being on thumb. Wonder if it's worth trying only this
   move independently for a week to see if it's workable for you. Other layouts
-  put `e` and `t` on thumb to great success, so we know it's possible. Just
-  takes a lot of focus on learning. Was cutting my overall speed in half for
-  several days. I recommend omitting it from your typing trainer while
-  learning the other changes. The reason `o` has nowhere "normal" to go is
-  because we take it as a given that we're stuck with `n` on right-index. `o`
-  can't stay on right-pinky because of the awful `you` redirect. `o` can't go
-  above or below `e` because `one` would be even worse than `you`. And
-  anywhere else, SFBs go crazy. So either `n` or `o` has to lose their place
-  on the vowel hand.
+  put `e` and `t` on thumb to great success (though haven't see any other do
+  `o`), so we know it's possible. Just takes a lot of focus on learning. Was
+  cutting my overall speed in half(!) for several days. I recommend omitting
+  it from your typing trainer while learning the other changes. The reason `o`
+  has nowhere "normal" to go is because we take it as a given that we're stuck
+  with `n` on right-index, and we want a "vowel hand". `o` can't stay on
+  right-pinky because of the awful `you` redirect. `o` can't go above or below
+  `e` because `one` would be even worse than `you`. And anywhere else, SFBs go
+  crazy. So either `n` or `o` has to lose its place on the vowel hand.
 
 - `b` — Kinda hard adjustment, but feels amazing. On this layout: if you feel
-  yourself stretching, you're probably reaching far the wrong key.
+  yourself stretching, you're probably reaching for the wrong key.
 
 - `k` — Optional, but easy change and really can help the lateral stretching,
   depending on your keyboard. The most common combos `kn`/`nk` (not really a
@@ -142,6 +146,11 @@ makes it a pretty good thumb letter.
 
 - `j`/`z`/`q`/`x` — Doesn't matter much where you put them. Move them around
   to your taste, but keep `q` on the left.
+
+## Quirks
+
+- `world`
+- `vowel`
 
 ## Optional Moves
 
@@ -168,16 +177,11 @@ and can be attempted one at a time:
 - Swap `k` and `,`.
 - Swap `v` and `q`.
 
-## Reference Implementation
 
-Probably not useful, but at least the picture gives some context for one
-attempt at easier alt-fingering, using QMK:
-[anatak60][4](`mrswlf` branch).
-
-## Versian without thumb-`o`:
+## Version without thumb-`o`:
 
 ```
-w l f p b   j y o u '
+w l f p b   j Y O U '
 m r s t g   k n e i a
 v x c d q   z h , . /
 ```
@@ -201,6 +205,24 @@ l w f p b   j y o u '
 m r s t g     n e i a
 q x c d v   k h , . /
 ```
+
+## Another thumbless variation
+
+Came upon this gem late in the game but it turns out that if you're willing to
+change the right-home to `n e A I` (against my original principals), a new
+world opens up. These stats are wild. If you have already learned the `mrst`
+left-hand, then all that's left is a few changes on right.
+
+```
+w l f p j   ' b u O Y
+m r s t g   k n e A I
+v x c d q   z h , . /
+```
+
+- Sfb:  0.773%
+- Dsfb: 5.984%
+- Lsb:  0.620%
+- BadRedirects: 0.229%
 
 ## How Mrs. Wolf was designed (thank yous!!)
 
@@ -234,6 +256,12 @@ of standard layouts there to play with/start from. I was amazed by how easy it
 is to severely tweak a layout and keep it usable with good stats.
 
 Left and right hand design can be done somewhat independently.
+
+## Reference Implementation
+
+Probably not useful, but at least the picture gives some context for one
+attempt at easier alt-fingering, using QMK:
+[anatak60][4](`mrswlf` branch).
 
 [1]: https://cyanophage.github.io/
 [2]: https://www.worldwidewords.org/qa/qa-ini1.htm
