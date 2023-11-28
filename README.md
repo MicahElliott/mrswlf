@@ -1,4 +1,4 @@
-# Mrs. Wolf (aka "thumbo", "thumb-o-tron")
+# Mrs. Wolf (aka "thumbo", "thumb-o-tron")
 
 Mrs. Wolf is a keyboard layout derived from Colemak-DH (a quick-learn
 spinoff), taking ideas from more modern layouts to improve comfort: much less
@@ -7,11 +7,11 @@ matrix-like keyboard.)
 
 ## Goals
 
-- Learnable from Colemak-DH in a couple days (except `o`), by minimizing home
+- "Learnable" from Colemak-DH in a few days (except `o`), by minimizing home
   row changes (and other high-freqs)
-- Drastically decrease lateral stretching (eg, `m` shouldn't be on right hand)
+- Drastically decrease lateral stretching (eg, `m` moved from right hand)
 - Reduce redirects
-- Alt-finger/pivot workarounds possible for _every_ (D)SFB
+- Alt-finger/pivot workarounds possible for nearly every (D)SFB
 - Progressive intermediate-step layout(s)
 - Avoid untenable editor combo-key columns (eg, `pnb`, explanation below)
 
@@ -22,42 +22,46 @@ has all the same keys and only **m** and **a** have changed (capitalized
 significant changes).
 
 ```
-w L f p J     B u y '
-M r s t g   k n e i A
-V x c d Q   Z h , . /
+w L f p Q   j B u y '
+M r s t g     n e i A
+V x c d K   Z h , . /
         o
 ```
 
-- Sfb:  0.751%
-- Dsfb: 4.988%
-- Lsb:  0.504%
+- Sfb:  0.711%
+- Dsfb: 5.392%
+- Lsb:  0.595%
 - BadRedirects: 0.142%
 
-Those are the simple stats I seem to care most about; all listed are from
-[Oxey's Layout Playground][3] analyzer with punctuation turned off (for most
-level playing field).
+Those are the simple stats I seem to care most about; all are from
+[Oxey's Layout Playground][3] analyzer with punctuation turned off
+(to get the most level playing field).
+
+According to [Cyanophage][1], Mrs. Wolf ranks roughly #4 (with some generous
+ties) across all ~30 layouts in Effort, SFBs, and DSFBs. Also fine and dandy
+with Laterals and Scissors.
 
 A few locations are still suboptimal: `p`, `c`, `n` all cause a lot of
-theoretical SFBs, but it's a very good compromise for maintaning the Colemak
-feel. In fact, I consider SFBs to be nearly 0% if you're willing to learn to
-alt-finger stacks like `sc`, `pt`, etc; Mrs. Wolf was designed to make them
-all reasonable. And the LSBs are mostly from `k`, and kinda negligible given
-an easy hand-shift for `kn`/`nk`. If you swap the `k` and `q` (or `k` and `j`)
-the SFBs go down to `0.696%`!
+theoretical SFBs, but I consider SFBs to be nearly 0% if you're willing to
+learn to alt-finger stacks like `sc`, `pt`, etc; Mrs. Wolf was designed to
+make almost all pretty reasonable.
 
 Here's what's the same as Colemak-DH (if you squint at `w` and `k` a little):
 
 ```
-w   f p         u y '
-  r s t g   k n e i
-  x c d       h , . /
+w   f p     j   u y '
+  r s t g     n e i
+  x c d k     h , . /
 ```
 
 As you can see, the whole Colemak-DH core is untouched (ignoring pinkies)!
 
+**Bottom line: Mrs. Wolf made a few good compromises to maintain the Colemak
+feel, while still statistically ranking with the very best layouts.**
+
 ## Intermediate Transitional (and other options)
 
-> Time: couple days or weeks
+> Time: couple days or weeks (depending on how thumb-o goes)
 
 To get started, here's an intermediate training layout where only 3 keys have
 changed! `m`, `a`, `o` (thumb).
@@ -123,60 +127,62 @@ makes it a pretty good thumb letter.
 
 - `o` — Very challenging being on thumb. Wonder if it's worth trying only this
   move independently for a week to see if it's workable for you. Other layouts
-  put `e` and `t` on thumb to great success (though haven't see any other do
-  `o`), so we know it's possible. Just takes a lot of focus on learning. Was
-  cutting my overall speed in half(!) for several days. I recommend omitting
-  it from your typing trainer while learning the other changes. The reason `o`
-  has nowhere "normal" to go is because we take it as a given that we're stuck
-  with `n` on right-index, and we want a "vowel hand". `o` can't stay on
-  right-pinky because of the awful `you` redirect. `o` can't go above or below
-  `e` because `one` would be even worse than `you`. And anywhere else, SFBs go
-  crazy. So either `n` or `o` has to lose its place on the vowel hand.
+  put `e` and `t` on thumb to seemingly great success (though haven't see any
+  other do `o`), so we know it's possible. Just takes a lot of focus on
+  learning. Was cutting my overall speed in half(!) for several days, and took
+  at least a week to be comfortable. I recommend omitting it from your typing
+  trainer while learning the other changes. The reason `o` has nowhere
+  "normal" to go is because we take it as a given that we're stuck with `n` on
+  right-index, and we want a "vowel hand". `o` can't stay on right-pinky
+  because of the awful `you` redirect. `o` can't go above or below `e` because
+  `one` would be even worse than `you`. And anywhere else, SFBs go crazy. So
+  either `n` or `o` ends up losing its place on the vowel hand.
 
 - `b` — Kinda hard adjustment, but feels amazing. On this layout: if you feel
   yourself stretching, you're probably reaching for the wrong key.
 
 - `k` — Optional, but easy change and really can help the lateral stretching,
-  depending on your keyboard. The most common combos `kn`/`nk` (not really a
-  stretch since you shift your hand) and `ck` (often ends in `k`) are
-  negligible effort.
+  depending on your keyboard.
 
 - `v` — Happy uncommon experiment that saved a ton of stretching and feels
   very natural.
 
 - `j`/`z`/`q`/`x` — Doesn't matter much where you put them. Move them around
-  to your taste, but keep `q` on the left.
+  to your taste, but probaply keep `q` on the left.
 
 ## Quirks
 
 - `world`
 - `vowel`
 
+`ld` is a somewhat common stretch and takes getting used to.
+
 ## Optional Moves
 
-Most of the low-freq moves aren't super important, statistically. You can keep
-the `k` where it was -- but it's better on my keyboard on middle-row. I did find
-that moving `v` was a really good lateral win. `q` just feels better on the left-hand
-to me since always combined with `u`-vowel.
+Most of the low-freq moves aren't super important, statistically. I did find
+that moving `v` was a really good lateral win. `q` just feels better on the
+left-hand to me since always combined with `u`-vowel.
+
+I tried moving `w`, `l`, `v`, and `x` to top and bottom — the analyzers treat
+them the same. I kinda liked `vx` on top with `wl` on bottom. Try it and
+decide for yourself.
 
 ## Compelling Features
 
 The scores aren't perfect, but they're better than they first appear. The SFUs
-are largely alt-able in easy ways. It inherits some quirks froz Colemak, but
+are largely alt-able in easy ways. It inherits some quirks from Colemak, but
 you're used to them.
 
-Mrs. T's key selling point is its "lateral stretch" score of `0.772%`. This is
-what happens when you remove that nasty `m` from the right hand.
+Mrs. Wolf's key selling point is probably its "lateral stretch" score of
+`0.595%`. This is what happens when you remove that nasty `m` from the right
+hand.
 
 ## Graduation Path
 
-When you're ready for more moves, these will get you closer to the big boys,
-and can be attempted one at a time:
+If you're all about the stats, these will get you even further:
 
-- Swap `m` and `n`.
-- Swap `k` and `,`.
-- Swap `v` and `q`.
-
+- Swap `m` and `p`, or `m` and `c`
+- Any others you think of?
 
 ## Version without thumb-`o`:
 
@@ -224,12 +230,29 @@ v x c d q   z h , . /
 - Lsb:  0.620%
 - BadRedirects: 0.229%
 
+Turns out this ends up looking a fair bit like [crst], [Hands Right], and
+[APTv3].
+
+## More smooth moves
+
+If you want to go extreme on the left, move `m`, `c`, `p`, `v`:
+
+```
+w l f m j
+c r s t g
+p x v d k
+```
+
+Swapping `p` and `m` is a big stats boost. Just might be a harder change. And
+I don't feel like the `pt` stack is actually a problem. Besides, I find having
+`p`(rev) and `n`(ext) on high/low indexes really intuitive for editors.
+
 ## How Mrs. Wolf was designed (thank yous!!)
 
 Lots of studying of existing layouts at [Cyanophage][1].
 
 Experimenting with [Oxey's Layout Playground][3] (doesn't work on Linux
-afaict).
+FF/chrome afaict).
 
 [Graphite][5]'s [Layout Doc][7] is a mind-expanding read.
 
@@ -249,13 +272,19 @@ movement, but it was way too hard to retrain my brain to do anything in Emacs,
 and it felt like it would have been months before I could be productive. There
 was also the major issue of winding up with a `pnb` column on left-pinky (or
 anywhere) — that was way too much for Emacs pinky to handle. Really, `p`(rev)
-and `n`(ext) (and `b`(ack)) need to be on all different fingers.
+and `n`(ext) (and `b`(ack)) would ideally be on all different fingers.
 
 The Layout Playground is an amazing tool for experimenting. There are plenty
 of standard layouts there to play with/start from. I was amazed by how easy it
 is to severely tweak a layout and keep it usable with good stats.
 
-Left and right hand design can be done somewhat independently.
+Columns can often be inverted. Eg, `ptd` can become `dtp` without any
+statistical penalty, so feel free to move those when they feel needed. This is
+particularly useful for cols 1/5/6.
+
+Left and right hand design can be done somewhat independently. IOW, if you see
+a left-hand layout you really like, use it, and do wtfyw with the right, and
+vice versa.
 
 ## Reference Implementation
 
