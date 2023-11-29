@@ -133,14 +133,16 @@ makes it a pretty good thumb letter.
   having the important vowel (and consonant) hand(s) (common to most modern
   layouts).
 
-- `w` — Barely notice the change since so close to original spot.
+- `w` — Barely notice the change since so close to original spot. But see
+  option to put it on bottom, which is harder but maybe better IMO, described
+  below.
 
-- `m` — Also surpringly fast adjustment. Maybe since `m` was such a pain
+- `m` — Also surprisingly fast adjustment. Maybe since `m` was such a pain
   before. You'd have to get used to having this on left for many layouts
-  anyway.
+  anyway. Lots of long-term mistakes with it, though.
 
-- `l` — It has to go somewhere comfy, and this is a common stack, above (or
-  below) `r`.
+- `l` — Not sure how it ever ended up above `n` — bad SFBs there, so it has to
+  go somewhere comfy, and this is a common stack, above (or below) `r`.
 
 - `o` — Very challenging being on thumb. Wonder if it's worth trying only this
   move independently for a week to see if it's workable for you. Other layouts
@@ -164,28 +166,30 @@ makes it a pretty good thumb letter.
 - `v` — Happy uncommon experiment that saved a ton of stretching and feels
   very natural.
 
-- `j`/`z`/`q`/`x` — Doesn't matter much where you put them. Move them around
+- `z`/`q`/`x` — Doesn't matter much where you put them. Move them around
   to your taste, but probaply keep `q` on the left.
 
 ## Optional Moves
 
 Most of the low-freq moves aren't super important, statistically. I did find
 that moving `v` was a really good lateral win. `q` just feels better on the
-left-hand to me since always combined with `u`-vowel. You might consider a
-macro to turn `q` into `qu`. But I like a plain `q` for other reasons.
+left-hand to me since always combined with `u`. You might consider a macro to
+turn `q` into `qu`. But I like a plain `q` for other reasons.
 
 **Big Decision**: I tried moving `wl` and `vx` each to top and bottom
-(maintaining their column) — the analyzers treat them mostly the same. Despite
+(maintaining their order) — the analyzers treat them mostly the same. Despite
 this potentially ruining the Wolf brand `:P` I do like the feel of `vx` on top
 with `wl` on bottom. I did some hand-calculating to conclude that it is indeed
 better for travel distance to put `l` on the bottom (with `c` and `d` so near
 and dear). And then `w` needs to be next to it. But I also like having `x` on
 the bottom for Emacs reasons. And you might want to keep `vxc` on the bottom
-for copy/cut/paste purposes. Maybe try both and decide for yourself.
+for copy/cut/paste purposes. Maybe try both and decide for yourself. It's a
+bigger deviation from Colemak to have `vx` on bottom, but it's what I'm using
+now.
 
 ## Compelling Features
 
-The scores aren't perfect, but they're better than they first appear. The SFUs
+The scores are maybe even better than they first appear. The SFUs
 are largely alt-able in easy ways. It inherits some quirks from Colemak, but
 you're used to them.
 
@@ -195,7 +199,8 @@ the right hand.
 
 ## Graduation Path
 
-If you're all about the stats, these will get you even further:
+If you're all about the stats (and don't care about breaking your head), these
+will get you even further:
 
 - Swap `m` and `p`, or `m` and `c`
 - Any others you think of?
@@ -230,10 +235,11 @@ q x c d v   k h , . /
 
 ## Another thumbless variation
 
-Came upon this gem late in the game but it turns out that if you're willing to
-change the right-home to `n e A I` (against the original principals), a new
-world opens up. These stats are wild. If you have already learned the `mrst`
-left-hand, then all that's left is a few changes on right.
+Came upon this gem late in the game (and haven't actually tried it) but it
+turns out that if you're willing to change the right-home to `n e A I`
+(against the original principals), a new world opens up. These stats are wild.
+If you have already learned the `mrst` left-hand, then all that's left is a
+few changes on right.
 
 ```
 w l f p j   ' b u O Y
@@ -302,6 +308,11 @@ Left and right hand design can be done somewhat independently. IOW, if you see
 a left-hand layout you really like, use it, and do wtfyw with the right, and
 vice versa.
 
+## How to learn
+
+- [Monkeytype][9] — so featureful and well done
+- [Keybr][8] — for extra repetition
+
 ## Reference Implementation
 
 Probably not useful, but at least the picture gives some context for one
@@ -315,3 +326,5 @@ attempt at easier alt-fingering, using QMK:
 [5]: https://github.com/rdavison/graphite-layout
 [6]: https://github.com/Apsu/Canary
 [7]: https://docs.google.com/document/d/1_a5Nzbkwyk1o0bvTctZrtgsee9jSP-6I0q3A0_9Mzm0/edit
+[8]: https://www.keybr.com/
+[9]: https://monkeytype.com/
