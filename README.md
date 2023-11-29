@@ -155,17 +155,23 @@ makes it a pretty good thumb letter.
 - `world`
 - `vowel`
 
-`ld` is a somewhat common stretch and takes getting used to.
+`ld` is a somewhat common stretch and its length takes getting used to.
 
 ## Optional Moves
 
 Most of the low-freq moves aren't super important, statistically. I did find
 that moving `v` was a really good lateral win. `q` just feels better on the
-left-hand to me since always combined with `u`-vowel.
+left-hand to me since always combined with `u`-vowel. You might consider a
+macro to turn `q` into `qu`. But I like a plain `q` for other reasons.
 
-I tried moving `w`, `l`, `v`, and `x` to top and bottom — the analyzers treat
-them the same. I kinda liked `vx` on top with `wl` on bottom. Try it and
-decide for yourself.
+I tried moving `wl` and `vx` each to top and bottom (maintaining their column)
+— the analyzers treat them mostly the same. Despite this potentially ruining
+the Wolf brand `:P` I do like the feel of `vx` on top with `wl` on
+bottom. I did some hand-calculating to conclude that it is indeed better for
+travel distance to put `l` on the bottom (with `c` and `d` so near and dear).
+And then `w` needs to be next to it. But I also like having `x` on the bottom
+for Emacs reasons. And you might want to keep `vxc` on the bottom for
+copy/cut/paste purposes. Maybe try both and decide for yourself.
 
 ## Compelling Features
 
