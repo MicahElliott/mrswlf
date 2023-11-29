@@ -15,7 +15,7 @@ matrix-like keyboard.)
 - Progressive intermediate-step layout(s)
 - Avoid untenable editor combo-key columns (eg, `pnb`, explanation below)
 
-It's ~easy~ not impossible to learn if you've been stuck in Colemak land and
+It's ~easy~ possible to learn if you've been stuck in Colemak land and
 itching to work your way out: only ~4 high-impact keys have changed
 significantly (10 total), and most feel intuitive: **l o m a**. The home row
 has all the same keys and only **m** and **a** have changed (capitalized
@@ -54,6 +54,16 @@ w   f p     j   u y '
   x c d k     h , . /
 ```
 
+And here are the ones I consider the "core anchors" that set the stage for all
+the things that constrain Mrs. Wolf into being what it is — the things that I
+feel would be hardest to rewire our heads for and didn't want to touch:
+
+```
+    f p         u y '
+  r s t g     n e i
+    c d       h
+```
+
 As you can see, the whole Colemak-DH core is untouched (ignoring pinkies)!
 
 **Bottom line: Mrs. Wolf made a few good compromises to maintain the Colemak
@@ -88,13 +98,15 @@ Colemak-DH in comparison:
 - Lsb:  1.923%
 - BadRedirects: 1.466%
 
+The SFBs are about the same, but those other three are huge differences.
+
 You could even start with only moving `o` to thumb (wait on `m` and `a`),
 before doing the `m`/`a`/`o` swaps. Try just `o` for a week and see if you can
 get past the hatred.
 
-Honestly, the simplest possible winning Colemak-DH mod (if you feel lateral
+Honestly, the simplest possible semi-winning Colemak-DH mod (if you feel lateral
 stretch pain) I can come up with is to simply swap `m` and `z` (though the
-`qam` stack is pretty nasty):
+`qam` stack is pretty gross):
 
 - Sfb:  1.682%
 - Dsfb: 6.389%
@@ -114,16 +126,21 @@ makes it a pretty good thumb letter.
 ## About the big (and small) moves
 
 - `a` — OK, it's annoying to use right-hand for `Ctrl-a` (select-all). But
-  otherwise, this was a surprisingly easy move for my hands, and really is
-  what gets you to having the important vowel (and consonant) hand(s) (common
-  to most modern layouts).
+  it's only an issue because your right hand is on the mouse, so just
+  triple-click instead. And yeah, it's also weird that `Ctrl-a` at the end of
+  the keyboard is now to take you to _beginning_ of the line. This was a
+  surprisingly easy move for my hands though, and really is what gets you to
+  having the important vowel (and consonant) hand(s) (common to most modern
+  layouts).
 
-- `w` — Barely notice the change.
+- `w` — Barely notice the change since so close to original spot.
 
-- `m` — Also surpringly fast adjustment. You'll have to get used to having
-  this on left for many layouts anyway.
+- `m` — Also surpringly fast adjustment. Maybe since `m` was such a pain
+  before. You'd have to get used to having this on left for many layouts
+  anyway.
 
-- `l` — It has to go somewhere comfy, and this is a common stack, above `r`.
+- `l` — It has to go somewhere comfy, and this is a common stack, above (or
+  below) `r`.
 
 - `o` — Very challenging being on thumb. Wonder if it's worth trying only this
   move independently for a week to see if it's workable for you. Other layouts
@@ -150,13 +167,6 @@ makes it a pretty good thumb letter.
 - `j`/`z`/`q`/`x` — Doesn't matter much where you put them. Move them around
   to your taste, but probaply keep `q` on the left.
 
-## Quirks
-
-- `world`
-- `vowel`
-
-`ld` is a somewhat common stretch and its length takes getting used to.
-
 ## Optional Moves
 
 Most of the low-freq moves aren't super important, statistically. I did find
@@ -164,14 +174,14 @@ that moving `v` was a really good lateral win. `q` just feels better on the
 left-hand to me since always combined with `u`-vowel. You might consider a
 macro to turn `q` into `qu`. But I like a plain `q` for other reasons.
 
-I tried moving `wl` and `vx` each to top and bottom (maintaining their column)
-— the analyzers treat them mostly the same. Despite this potentially ruining
-the Wolf brand `:P` I do like the feel of `vx` on top with `wl` on
-bottom. I did some hand-calculating to conclude that it is indeed better for
-travel distance to put `l` on the bottom (with `c` and `d` so near and dear).
-And then `w` needs to be next to it. But I also like having `x` on the bottom
-for Emacs reasons. And you might want to keep `vxc` on the bottom for
-copy/cut/paste purposes. Maybe try both and decide for yourself.
+**Big Decision**: I tried moving `wl` and `vx` each to top and bottom
+(maintaining their column) — the analyzers treat them mostly the same. Despite
+this potentially ruining the Wolf brand `:P` I do like the feel of `vx` on top
+with `wl` on bottom. I did some hand-calculating to conclude that it is indeed
+better for travel distance to put `l` on the bottom (with `c` and `d` so near
+and dear). And then `w` needs to be next to it. But I also like having `x` on
+the bottom for Emacs reasons. And you might want to keep `vxc` on the bottom
+for copy/cut/paste purposes. Maybe try both and decide for yourself.
 
 ## Compelling Features
 
@@ -180,8 +190,8 @@ are largely alt-able in easy ways. It inherits some quirks from Colemak, but
 you're used to them.
 
 Mrs. Wolf's key selling point is probably its "lateral stretch" score of
-`0.595%`. This is what happens when you remove that nasty `m` from the right
-hand.
+`0.595%`. This is what happens when you remove that impossible `mn` combo from
+the right hand.
 
 ## Graduation Path
 
@@ -221,7 +231,7 @@ q x c d v   k h , . /
 ## Another thumbless variation
 
 Came upon this gem late in the game but it turns out that if you're willing to
-change the right-home to `n e A I` (against my original principals), a new
+change the right-home to `n e A I` (against the original principals), a new
 world opens up. These stats are wild. If you have already learned the `mrst`
 left-hand, then all that's left is a few changes on right.
 
@@ -236,12 +246,12 @@ v x c d q   z h , . /
 - Lsb:  0.620%
 - BadRedirects: 0.229%
 
-Turns out this ends up looking a fair bit like [crst], [Hands Right], and
+Turns out this ends up looking a fair bit like [crest], [Hands Right], and
 [APTv3].
 
 ## More smooth moves
 
-If you want to go extreme on the left, move `m`, `c`, `p`, `v`:
+If you want to go stats wild on the left, move `m`, `c`, `p`, `v`:
 
 ```
 w l f m j
@@ -266,11 +276,11 @@ Reading many insightful reddit threads on `r/KeyboardLayouts`.
 
 ## Interesting learnings
 
-Several Colemak spinoffs are great. But none went very far to eliminate
-lateral stretching. In the end, I realized that `m` was the only huge culprit.
-But `v` and `b` were also great to move. I got comfortable enough with Canary,
-and felt some great improvements, but it was still too stretchy (and has the
-`one` showstopper).
+Several Colemak spinoffs are great. But none that I could find went very far
+to eliminate lateral stretching. In the end, I realized that `m` was the only
+huge culprit. But `v` and `b` were also great to move. I got comfortable
+enough with [Canary][6], and felt some great improvements, but it was still
+too stretchy (and has the `one` showstopper).
 
 Nerts and its ilk are pretty neat. I got far enough with Graphite (tweaked to
 `nrst`/`heia`) to be able to type (slooowly) and feel some clean/natural
@@ -285,8 +295,8 @@ of standard layouts there to play with/start from. I was amazed by how easy it
 is to severely tweak a layout and keep it usable with good stats.
 
 Columns can often be inverted. Eg, `ptd` can become `dtp` without any
-statistical penalty, so feel free to move those when they feel needed. This is
-particularly useful for cols 1/5/6.
+statistical penalty (except proximity, which isn't obvious), so feel free to
+move those when they feel needed. This is particularly useful for cols 1/5/6.
 
 Left and right hand design can be done somewhat independently. IOW, if you see
 a left-hand layout you really like, use it, and do wtfyw with the right, and
@@ -303,4 +313,5 @@ attempt at easier alt-fingering, using QMK:
 [3]: https://oxey.dev/playground/index.html
 [4]: https://github.com/MicahElliott/anatak60
 [5]: https://github.com/rdavison/graphite-layout
+[6]: https://github.com/Apsu/Canary
 [7]: https://docs.google.com/document/d/1_a5Nzbkwyk1o0bvTctZrtgsee9jSP-6I0q3A0_9Mzm0/edit
