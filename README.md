@@ -7,11 +7,11 @@ SFBs, etc. (Only ever tried with matrix-like keyboard.)
 
 **Note to QWERTYzens:** Mrs. Wolf has almost no overlap with qwerty. If you
 haven't trained for Colemak, you might want to start from scratch and head
-straight to one of [Oxey's tried and true layouts][3] or choose something from
-[Cyanophage][1] that suits your goals. (Or if you want a minor change with
-significant improvements yet minimal changes, see QWRT at the bottom.)
-However, Mrs. Wolf competes statistically with the best of them; it just
-hasn't been tested outside of my own slow hands.
+straight to one of [Oxey's tried and true layouts][11] or choose something
+from [Cyanophage's visual list][1] that suits your goals. However, Mrs. Wolf
+competes statistically with the best of them; it just hasn't been tested
+outside of my own slow hands. (Or if you want a minor change with significant
+improvements yet minimal changes, see QWRT at the bottom.)
 
 ## Goals
 
@@ -54,7 +54,7 @@ theoretical SFBs, but I consider SFBs to be nearly 0% if you're willing to
 learn to alt-finger stacks like `sc`, `pt`, etc; Mrs. Wolf was designed to
 make almost all pretty reasonable to alt.
 
-Here's what's the same as Colemak-DH (if you squint at `w` and `k` a little):
+Here's what's the same as Colemak-DH (if you squint at `w` and `k`):
 
 ```
 w   f p     j   u y '
@@ -64,8 +64,8 @@ w   f p     j   u y '
 
 And here are the ones I consider the "core anchors" that set the stage for all
 the things that constrain Mrs. Wolf into being what it is — the things that I
-feel would be hardest to rewire our heads and hands for and didn't want to
-touch:
+feel would be hardest to rewire our and hands for and didn't want to touch
+(though `p`/PB&J may be worth it, see section below):
 
 ```
     f p         u y '
@@ -78,7 +78,7 @@ As you can see, the whole Colemak-DH core is untouched (ignoring pinkies)!
 **Bottom line: Mrs. Wolf made a few good compromises to maintain the Colemak
 feel, while still statistically ranking among the very best layouts.**
 
-BTW, `o` on thumb is really awesome once you get used to it.
+BTW, `o` on thumb is awesome _once you get used to it_.
 
 ### About those lateral stretches
 
@@ -87,7 +87,7 @@ quite used to).
 
 For the left hand, `k`, the stretches are not too bad (depending on your
 keyboard and hand size), by no longer being next to `n` and `e`; and `ck`
-being a vely comfy stretch. `sk`/`rk` are not terrible still feel far to me.
+being a vely comfy stretch. `sk`/`rk` are not terrible but still feel far to me.
 
 The `j` stretches are almost fully due to `je` and `ju`, and neither seems
 like much effort. And you're use to them. You could swap it with `z` if it's
@@ -267,7 +267,7 @@ SFB is actually 0.802% if you discount it.
 
 The main challenges with this are:
 
-- `one` DSFB has no good workaround.
+- `one` DSFB has no good workaround (like Canary).
 
 Intermediate (6 changes):
 
@@ -281,7 +281,7 @@ q x c d v   k h , . /
 
 Came upon this gem late in the game (and haven't actually tried it) but it
 turns out that if you're willing to change the right-home to `n e A I`
-(against the original principals), a new world opens up. These stats are wild.
+(against the original principals), a new world opens up. These stats are great.
 If you have already learned the `mrst` left-hand, then all that's left is a
 few changes on right.
 
@@ -304,8 +304,8 @@ Turns out this ends up looking a fair bit like [crest], [Hands Right], and
 Further diverging from Colemak, you can move `p` to the right and `b` down.
 This opens up a spot on left for a ["magic"][10] key (above `f`) if you've
 been wanting to try it (or whatever syntax is handy, like `-` for lisp, or `_`
-for others). It's also very nice to have the prev/back/next mnemonics (almost
-like a WASD) for those three for Emacs, shell, etc. I also found the
+for others). It's also very nice to have the prev/back/next mnemonics together (almost
+like a WASD or HJKL) for those three for Emacs, shell, etc. I also found the
 transition to this to be particularly easy given the spatial feeling of `prev`
 being on top etc. Stats are wild too, and it feels great. This is what I've landed
 on now for my daily driver.
@@ -434,6 +434,7 @@ attempt at easier alt-fingering, using QMK:
 [8]: https://www.keybr.com/
 [9]: https://monkeytype.com/
 [10]: https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md
+[11]: https://oxey.dev/index.html
 
 ## QWRT (not tried!)
 
