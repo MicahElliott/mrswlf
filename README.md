@@ -2,13 +2,21 @@
 
 Mrs. Wolf is a keyboard layout derived from Colemak-DH (a "quick-learn"
 spinoff), taking ideas from more modern layouts to improve comfort: much less
-stretching (#1 motivation), fewer redirects, better SFBs, etc. (Only ever
-tried with matrix-like keyboard.)
+stretching (#1 original motivation due mostly to `m`), fewer redirects, better
+SFBs, etc. (Only ever tried with matrix-like keyboard.)
+
+**Note to QWERTYzens:** Mrs. Wolf has almost no overlap with qwerty. If you
+haven't trained for Colemak, you might want to start from scratch and head
+straight to one of [Oxey's tried and true layouts][3] or choose something from
+[Cyanophage][1] that suits your goals. (Or if you want a minor change with
+significant improvements yet minimal changes, see QWRT at the bottom.)
+However, Mrs. Wolf competes statistically with the best of them; it just
+hasn't been tested outside of my own slow hands.
 
 ## Goals
 
-- "Learnable" from Colemak-DH in a few days (except `o`), by minimizing home
-  row changes (and other high-freqs)
+- "Learnable" from Colemak-DH in a few days to weeks (except `o`), by
+  minimizing home row changes (and other high-freqs)
 - Drastically decrease lateral stretching (eg, `m` moved from right hand)
 - Reduce redirects
 - Alt-finger/pivot workarounds possible for nearly every (D)SFB
@@ -70,17 +78,21 @@ As you can see, the whole Colemak-DH core is untouched (ignoring pinkies)!
 **Bottom line: Mrs. Wolf made a few good compromises to maintain the Colemak
 feel, while still statistically ranking among the very best layouts.**
 
+BTW, `o` on thumb is really awesome once you get used to it.
+
 ### About those lateral stretches
 
 There are just `k` and `j` that cause a little stretching (and the `g` you're
 quite used to).
 
-For the left hand, `k`, the stretches feel pretty easy (depending on your
-keyboard), by no longer being next to `n` and `e`; and `ck` being a vely comfy
-stretch, and `sk`/`rk` being not bad.
+For the left hand, `k`, the stretches are not too bad (depending on your
+keyboard and hand size), by no longer being next to `n` and `e`; and `ck`
+being a vely comfy stretch. `sk`/`rk` are not terrible still feel far to me.
 
 The `j` stretches are almost fully due to `je` and `ju`, and neither seems
-like much effort. You could swap it with `z` if it's better on your keyboard.
+like much effort. And you're use to them. You could swap it with `z` if it's
+better on your keyboard. With `z` on bottom, I move my hand to use ring for
+`e`.
 
 ## Intermediate Transitional (and other options)
 
@@ -214,18 +226,28 @@ will get you even further:
 
 **Big Decision**: I tried moving `wl` and `vx` each (and combos) to top and
 bottom (maintaining their order) — the analyzers treat them mostly the same.
+
+```
+V X f p Q   j B u y '
+M r s t g     n e i A
+W L c d K   Z h , . /
+        o
+```
+
 Despite this potentially ruining the Wolf brand `:P` I do like the feel of
 `wl` on bottom (and `vx` on top). I did some hand-calculating to conclude that
 it is indeed better for travel distance to put `l` on the bottom (with `c` and
 `d` so near and dear). And then `w` needs to be next to `l`. But I also like
 having `x` on the bottom for Emacs reasons (though easy adjustment). And you
-might want to keep `vx` on the bottom for cut/paste purposes (though
-overrated IMO). Maybe try both and decide for yourself. It's a bigger
-departure from Colemak to have `vx` on top, and thus a lot slower to learn,
-but it's what I'm using now. Also, lots of folks believe you shouldn't put
-high loads on non-index bottoms, but I find it pretty comfortable with an
-active thumb-`o` already down there (and a XL but naturally tight, curly
-hand).
+might want to keep `vx` on the bottom for cut/paste purposes (though overrated
+IMO). Maybe try both and decide for yourself. It's a bigger departure from
+Colemak to have `vx` on top, and thus a lot slower to learn, but it's what I'm
+using now. Also, lots of folks believe you shouldn't put high loads on
+non-index bottoms, but I find it pretty comfortable with an active thumb-`o`
+already down there (and a naturally tight, curly hand).
+
+Another advantage of `wl` on bottom is that `rl` is an easy downward alt
+(ring-over-middle), whereas the opposite is clumsier (ring and pinky).
 
 ### Version without thumb-`o`:
 
@@ -277,7 +299,30 @@ v x c d q   z h , . /
 Turns out this ends up looking a fair bit like [crest], [Hands Right], and
 [APTv3].
 
-## More smooth moves
+### PB&J, drifting even farther
+
+Further diverging from Colemak, you can move `p` to the right and `b` down.
+This opens up a spot on left for a ["magic"][10] key (above `f`) if you've
+been wanting to try it (or whatever syntax is handy, like `-` for lisp, or `_`
+for others). It's also very nice to have the prev/back/next mnemonics (almost
+like a WASD) for those three for Emacs, shell, etc. I also found the
+transition to this to be particularly easy given the spatial feeling of `prev`
+being on top etc. Stats are wild too, and it feels great. This is what I've landed
+on now for my daily driver.
+
+```
+v x f   q   j p u y '
+m r s t g   b n e a i
+w l c d k   z h , . /
+        o
+```
+
+> - Sfb:  0.688%
+> - Dsfb: 5.279%
+> - Lsb:  1.478%
+> - BadRedirects: 0.160%
+
+### More smooth moves
 
 If you want to go stats wild on the left, move `m`, `c`, `p`, `v`:
 
@@ -305,9 +350,11 @@ Reading many insightful reddit threads on `r/KeyboardLayouts`.
 ## Challenges/quirks/annoyances
 
 - `pl` and `fl` are a little scissory
+- `move` is terrible. I try to hit `m` with ring and `v` with pinky.
 - `beh` alted takes a while to learn, but the same as `hel` you got used to
+- `b_n` is common and trainable as an important alt
   with Colemak-DH
-- `somewhat`
+- `tomorrow` is a lot for one hand
 
 ## Interesting learnings
 
@@ -353,6 +400,24 @@ it took me a couple weeks to hit 50 WPM. However, I was able to feel
 productive enough writing code in Emacs after a few days of hitting monkeytype
 and keybr pretty hard.
 
+## Alt fingering
+
+Once you've reached with index for `p` or `b` you may get into trouble since
+there's no other finger to reach farther with. Eg, `bun`, you really need to
+hit `b` with middle and arrange from there. This applies to any layout for
+those positions. The trick is looking ahead to see if there is a skipgram
+coming, and reach for them with middle. With Colemak you may have gotten used
+to reaching for `l` with middle, but now you have to retrain for `b`. You may
+already have that reflex with `p` on the left.
+
+Alts for most others have been taken into account with Mrs. Fox. One key is to
+remember that (non-index) _downward_ alts don't take any planning. Eg, `fas`,
+index flows naturally down to `s`, but going the other (`saf`) puts `s` on
+middle but requires ring to swoop up for `f`. However, note that `fast` (and
+moreso `fact`) requires planning to go with ring for `f` since you run out of
+fingers at `t`. There will be words that are near impossible to alt. `cast` is
+an example.
+
 ## Reference Implementation
 
 Probably not useful, but at least the picture gives some context for one
@@ -368,3 +433,27 @@ attempt at easier alt-fingering, using QMK:
 [7]: https://docs.google.com/document/d/1_a5Nzbkwyk1o0bvTctZrtgsee9jSP-6I0q3A0_9Mzm0/edit
 [8]: https://www.keybr.com/
 [9]: https://monkeytype.com/
+[10]: https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md
+
+## QWRT (not tried!)
+
+This was just for fun, a qwerty spin-off that changes just a few letters
+(`a`/`e`/`l` the only major ones), but improves most stats 2-4x!
+
+```
+q w r t     y u i o p
+L s d f g   h N k E A
+z x c v b   J m
+```
+
+> - Sfb:  3.115%
+> - Dsfb: 9.500%
+> - Lsb:  1.339%
+> - BadRedirects: 0.610%
+
+Vs QWERTY stats:
+
+> - Sfb:   6.496%
+> - Dsfb: 10.708%
+> - Lsb:   6.623%
+> - BadRedirects: 1.401%
