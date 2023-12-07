@@ -6,7 +6,7 @@ comfort: much less stretching (#1 original motivation due mostly to `m`),
 fewer redirects, better SFBs, etc. (Only ever tried with matrix-like
 keyboard.)
 
-![thumbo](keeb.jpg)
+![thumbo](keeb.jpg "PB&B variant")
 
 **Note to QWERTYzens:** Mrs. Thumbo has almost no overlap with qwerty. If you
 haven't trained for Colemak, you might start from scratch and head straight to
@@ -27,7 +27,7 @@ significant improvements yet minimal changes, see QWRT at the bottom.)
 - Avoid untenable editor combo-key columns (eg, `pnb`, explanation below)
 
 Mrs. Thumbo is ~easy~ possible to learn if you've been in Colemak land and
-thinking it could be better: in the "Wolf layout only ~4 high-impact keys have
+thinking it could be better: in the "Wolf" layout only ~4 high-impact keys have
 changed significantly (10 total), and most feel intuitive: **l o m a**. The
 home row has all the same keys and only **m** and **a** have changed
 (capitalized significant changes).
@@ -245,6 +245,11 @@ you shouldn't put high loads on non-index bottoms, but I find it pretty
 comfortable with an active thumb-`o` already down there (and a naturally
 tight, curly hand).
 
+This makes for something of a secondary left-hand "home row" in `wlcdk`. Those
+co-occur well together to minimize travel. And then the left-top row has
+minimal work to do, similar to right-bottom. That makes for an interesting
+asymmetry (high right, low left), but I don't see it causing problems.
+
 Another advantage of `wl` on bottom is that `rl` is an easy downward alt
 (ring-over-middle), whereas the opposite is clumsier (ring and pinky without
 careful lookahead).
@@ -296,7 +301,7 @@ v x c d q   z h , . /
 > - Lsb:  0.620%
 > - BadRedirects: 0.229%
 
-### PB&J, drifting even farther (my fave!)
+### PB&J, drifting even further (my fave!)
 
 Further diverging from Colemak, you can move `p` to the right and `b` down.
 This opens up a spot on left for a ["magic"][10] key (above `t`) if you've
@@ -304,20 +309,16 @@ been wanting to try it (or whatever syntax is handy, like `-` for lisp, or `_`
 for others). It's also very nice to have the prev/back/next mnemonics together
 (almost like a WASD or HJKL) for those three for Emacs, shell, etc. I also
 found the transition to this to be particularly easy given the spatial feeling
-of `prev` being on top, `n` right below it, etc. And it's really interesting
-to discover that moving (`p`) to an identical position on the opposite hand
-was easy! Stats are wild too, and it feels great. So this is what I've landed
-on now for my daily driver.
+of `p`rev being on top, `n`ext right below it, `b`ack to the left. And it's
+really interesting to discover that moving (`p`) to an identical position on
+the opposite hand was easy! Stats are wild too, and it feels great. So this is
+what I've landed on now for my daily driver.
 
-It makes LSBs significantly worse, but reaching for `b` isn't nearly as bad as
-I had expected. And makes for a pretty easy `ph` alt.
+It makes LSBs (lateral) significantly worse, but reaching for `b` isn't nearly
+as bad as I had expected. And makes for a pretty easy `ph` alt.
 
-Another (optional) move here is putting `v` on top-index. This makes for
-something of a secondary left-hand "home row" in `wlcdk`. Those co-occur well
-together to minimize travel. And then the left-top row has minimal work to do,
-similar to right-bottom. That makes for an interesting asymmetry, but I don't
-see it causing problems. The move also eliminated the `v_l` trigram that had
-been feeling awkwardly scissory.
+Another (optional) move here is putting `v` on top-index. It also eliminated
+the `v_l` trigram that had been feeling awkwardly scissory.
 
 ```
 - x f V q   j P u y '
