@@ -86,8 +86,6 @@ As you can see, the whole Colemak-DH core is untouched (ignoring pinkies)!
 **Bottom line: Mrs. Thumbo made a few good compromises to maintain the Colemak
 feel, while still statistically ranking among the very best layouts.**
 
-BTW, `o` on thumb is awesome _once you get used to it_.
-
 ### About those lateral stretches
 
 There are just `k` and `j` that cause a little stretching (and the `g` you're
@@ -197,8 +195,9 @@ makes it a pretty good thumb letter for faster learning.
 - `v` — Happy uncommon experiment that saved a ton of stretching and feels
   very natural.
 
-- `z`/`q`/`x` — Doesn't matter much where you put them. Move them around
-  to your taste, but probaply keep `q` on the left.
+- `z`/`q`/`x` — Doesn't matter much where you put them. Move them around to
+  your taste, but probaply keep `q` on the left (since `u` will logjam the
+  right). I guess `z` on right is slightly annoying for _undo_ but NBD.
 
 ## Compelling Features
 
@@ -219,10 +218,66 @@ some ideas you could adopt or riff off of.
 
 ### Mrs. Wolf
 
-See the top intro section. Most of its description applies to the following
-variants.
+The original. See the top intro section. Most of its description applies to
+the following variants.
 
-### Mrs. Fox
+### Mrs. You (version without thumb-`o`):
+
+I feel that `o` on thumb is awesome _once you get used to it_. However,
+someone may come along and prove it's a terrible idea. I think that's
+unlikely, but here are a couple thumbless variants just in case, or if you
+don't have thumbs.
+
+```
+w l f p b   j Y O U '
+m r s t g   k n e i a
+v x c d q   z h , . /
+```
+
+> - Sfb:  1.098%
+> - Dsfb: 7.431%
+> - Lsb:  0.735%
+> - BadRedirects: 0.108% <== JEEZ, THIS IS AMAZING (if right)
+
+`ny`/`yn` are a really easy alt, and SFB is actually 0.802% if you discount
+it.
+
+The main challenges with this are:
+
+- `one` DSFB has no good workaround (like Canary).
+
+Intermediate (6 changes):
+
+```
+l w f p b   j y o u '
+m r s t g     n e i a
+q x c d v   k h , . /
+```
+
+### Mrs. Buoy (another thumbless variation, not tried)
+
+Came upon this gem late in the game (and haven't actually tried it) but it
+turns out that if you're willing to change the right-home to `n e A I`
+(against the original principals), a new world opens up. These stats are great.
+If you have already learned the `mrst` left-hand, then all that's left is a
+few changes on right.
+
+I'm skeptical about the right-pinky workload/alting (though halmak and semimak
+pulled it off). There are workarounds for that if you like this one overall
+(see what Graphite did).
+
+```
+w l f p j   ' b u O Y
+m r s t g   k n e A I
+v x c d q   z h , . /
+```
+
+> - Sfb:  0.773%
+> - Dsfb: 5.984%
+> - Lsb:  0.620%
+> - BadRedirects: 0.229%
+
+### Mrs. Fox (back to the thumb)
 
 I tried moving `wl` and `vx` each (and combos) to top and bottom (maintaining
 their order) — the analyzers treat them mostly the same.
@@ -254,53 +309,6 @@ Another advantage of `wl` on bottom is that `rl` is an easy downward alt
 (ring-over-middle), whereas the opposite is clumsier (ring and pinky without
 careful lookahead).
 
-### Mrs. You (version without thumb-`o`):
-
-```
-w l f p b   j Y O U '
-m r s t g   k n e i a
-v x c d q   z h , . /
-```
-
-> - Sfb:  1.098%
-> - Dsfb: 7.431%
-> - Lsb:  0.735%
-> - BadRedirects: 0.108%
-
-`ny`/`yn` are a really easy alt, and SFB is actually 0.802% if you discount
-it.
-
-The main challenges with this are:
-
-- `one` DSFB has no good workaround (like Canary).
-
-Intermediate (6 changes):
-
-```
-l w f p b   j y o u '
-m r s t g     n e i a
-q x c d v   k h , . /
-```
-
-### Mrs. Buoy (another thumbless variation, not tried)
-
-Came upon this gem late in the game (and haven't actually tried it) but it
-turns out that if you're willing to change the right-home to `n e A I`
-(against the original principals), a new world opens up. These stats are great.
-If you have already learned the `mrst` left-hand, then all that's left is a
-few changes on right.
-
-```
-w l f p j   ' b u O Y
-m r s t g   k n e A I
-v x c d q   z h , . /
-```
-
-> - Sfb:  0.773%
-> - Dsfb: 5.984%
-> - Lsb:  0.620%
-> - BadRedirects: 0.229%
-
 ### PB&J, drifting even further (my fave!)
 
 Further diverging from Colemak, you can move `p` to the right and `b` down.
@@ -317,8 +325,8 @@ what I've landed on now for my daily driver.
 It makes LSBs (lateral) significantly worse, but reaching for `b` isn't nearly
 as bad as I had expected. And makes for a pretty easy `ph` alt.
 
-Another (optional) move here is putting `v` on top-index. It also eliminated
-the `v_l` trigram that had been feeling awkwardly scissory.
+Another (optional) move here is putting `v` on top-index. It eliminated
+the scissory `v_l` trigram that had been feeling awkward.
 
 ```
 - x f V q   j P u y '
@@ -332,9 +340,18 @@ w l c d k   z h , . /
 > - Lsb:  1.478%
 > - BadRedirects: 0.160%
 
+### VeLOCD
+
 Now if you want even less pinky effort, swap the `v` and `w`, but SFBs get a
 worse — too many logjams IMO. But let's brand this tweak as "VeLOCD" anyway,
 in case someone likes it.
+
+```
+- x f W q   j P u y '
+m r s t g   B n e a i
+V l c d k   z h , . /
+        o
+```
 
 ## How Mrs. Thumbo was designed (thank yous!!)
 
