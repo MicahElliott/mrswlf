@@ -232,20 +232,20 @@ W L c d K   Z h , . /
         o
 ```
 
-I do like the feel of `wl` on bottom (and `vx` on top). I did some
+I like the feel of `wl` on bottom (and `vx` on top). I did some
 hand-calculating to conclude that it is indeed better for travel distance to
 put `l` on the bottom (with `c` and `d` so near and dear). And then `w` needs
-to be next to `l`. But I also like having `x` on the bottom for Emacs reasons
-(though easy adjustment). And you might want to keep `vx` on the bottom for
-cut/paste purposes (though overrated IMO). Maybe try both and decide for
-yourself. It's a bigger departure from Colemak to have `vx` on top, and thus a
-lot slower to learn, but it's what I'm using now. Also, lots of folks believe
+to be next to `l`. And you might want to keep `vx` on the bottom for
+cut/paste purposes (though way overrated IMO). Maybe try both and decide for
+yourself. It's a bigger departure from Colemak to have `vx` on top, and thus
+slower to learn, but it's what I'm using now. Also, lots of folks believe
 you shouldn't put high loads on non-index bottoms, but I find it pretty
 comfortable with an active thumb-`o` already down there (and a naturally
 tight, curly hand).
 
 Another advantage of `wl` on bottom is that `rl` is an easy downward alt
-(ring-over-middle), whereas the opposite is clumsier (ring and pinky).
+(ring-over-middle), whereas the opposite is clumsier (ring and pinky without
+careful lookahead).
 
 ### Mrs. You (version without thumb-`o`):
 
@@ -260,8 +260,8 @@ v x c d q   z h , . /
 > - Lsb:  0.735%
 > - BadRedirects: 0.108%
 
-The numbers are better than they look: `ny`/`yn` are a really easy alt, and
-SFB is actually 0.802% if you discount it.
+`ny`/`yn` are a really easy alt, and SFB is actually 0.802% if you discount
+it.
 
 The main challenges with this are:
 
@@ -275,7 +275,7 @@ m r s t g     n e i a
 q x c d v   k h , . /
 ```
 
-### Mrs. Buoy (another thumbless variation)
+### Mrs. Buoy (another thumbless variation, not tried)
 
 Came upon this gem late in the game (and haven't actually tried it) but it
 turns out that if you're willing to change the right-home to `n e A I`
@@ -294,7 +294,7 @@ v x c d q   z h , . /
 > - Lsb:  0.620%
 > - BadRedirects: 0.229%
 
-### PB&J, drifting even farther
+### PB&J, drifting even farther (my fave!)
 
 Further diverging from Colemak, you can move `p` to the right and `b` down.
 This opens up a spot on left for a ["magic"][10] key (above `t`) if you've
@@ -302,10 +302,10 @@ been wanting to try it (or whatever syntax is handy, like `-` for lisp, or `_`
 for others). It's also very nice to have the prev/back/next mnemonics together
 (almost like a WASD or HJKL) for those three for Emacs, shell, etc. I also
 found the transition to this to be particularly easy given the spatial feeling
-of `prev` being on top etc. And it's really interesting to discover that
-moving (`p`) to an identical position on the opposite hand was easy! Stats are
-wild too, and it feels great. So this is what I've landed on now for my daily
-driver.
+of `prev` being on top, `n` right below it, etc. And it's really interesting
+to discover that moving (`p`) to an identical position on the opposite hand
+was easy! Stats are wild too, and it feels great. So this is what I've landed
+on now for my daily driver.
 
 It makes LSBs significantly worse, but reaching for `b` isn't nearly as bad as
 I had expected. And makes for a pretty easy `ph` alt.
@@ -318,8 +318,8 @@ see it causing problems. The move also eliminated the `v_l` trigram that had
 been feeling awkwardly scissory.
 
 ```
-- x f v q   j p u y '
-m r s t g   b n e a i
+- x f V q   j P u y '
+m r s t g   B n e a i
 w l c d k   z h , . /
         o
 ```
@@ -335,14 +335,21 @@ in case someone likes it.
 
 ## How Mrs. Thumbo was designed (thank yous!!)
 
-Lots of studying of existing layouts at [Cyanophage][1].
+Lots of studying of existing layouts at [Cyanophage][1], and using the _Edit_
+feature.
 
 Experimenting with [Oxey's Layout Playground][3] (doesn't work on Linux
-FF/chrome afaict).
+FF/chrome afaict fyi) for countless hours. Also the thoughtful considerations
+explained on each published layout.
 
 [Graphite][5]'s [Layout Doc][7] is a mind-expanding read.
 
 Reading many insightful reddit threads on `r/KeyboardLayouts`.
+
+Everyone who has published a layout! There's something to be learned from all
+of them.
+
+[Hands Down][13] family for the various thumb ideas and fascinating layouts.
 
 ## Interesting learnings
 
@@ -435,6 +442,7 @@ gives some context for one attempt at easier alt-fingering, using QMK:
 [10]: https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md
 [11]: https://oxey.dev/index.html
 [12]: https://www.reddit.com/r/typing/comments/172umsd/896_trigrams_in_200_words_a_new_selection_of/
+[13]: https://sites.google.com/alanreiser.com/handsdown/home
 
 ## QWRT (not tried!)
 
