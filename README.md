@@ -217,7 +217,8 @@ some ideas you could adopt or riff off of.
 
 ### Mrs. Wolf
 
-See the top intro section.
+See the top intro section. Most of its description applies to the following
+variants.
 
 ### Mrs. Fox
 
@@ -306,6 +307,9 @@ moving (`p`) to an identical position on the opposite hand was easy! Stats are
 wild too, and it feels great. So this is what I've landed on now for my daily
 driver.
 
+It makes LSBs significantly worse, but reaching for `b` isn't nearly as bad as
+I had expected. And makes for a pretty easy `ph` alt.
+
 Another (optional) move here is putting `v` on top-index. This makes for
 something of a secondary left-hand "home row" in `wlcdk`. Those co-occur well
 together to minimize travel. And then the left-top row has minimal work to do,
@@ -326,7 +330,8 @@ w l c d k   z h , . /
 > - BadRedirects: 0.160%
 
 Now if you want even less pinky effort, swap the `v` and `w`, but SFBs get a
-worse — too many logjams IMO. But let's brand this tweak as "VeLOCD" anyway.
+worse — too many logjams IMO. But let's brand this tweak as "VeLOCD" anyway,
+in case someone likes it.
 
 ## How Mrs. Thumbo was designed (thank yous!!)
 
@@ -371,6 +376,10 @@ A realization that the middle finger is long and dextrous and, eg, can
 almost always reach over to hit the `v` (and `t` and `d`) and often needs to,
 so when alt-ing, index is kinda responsible for only 5 keys, and middle gets
 4+!
+
+Punctuation/symbols really change the stats. I excluded them from most of the
+analyses, but they have strong impact on several metrics, including redirects.
+So experiment with them in the Playground and choose wisely.
 
 ## How to learn/practice
 
