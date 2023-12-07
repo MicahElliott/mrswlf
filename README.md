@@ -1,14 +1,15 @@
-# Mrs. Wolf (aka "thumbo", "thumb-o-tron")
+# Mrs. Thumbo
 
-Mrs. Wolf is a keyboard layout derived from Colemak-DH (a "quick-learn"
-spinoff), taking ideas from more modern layouts to improve comfort: much less
-stretching (#1 original motivation due mostly to `m`), fewer redirects, better
-SFBs, etc. (Only ever tried with matrix-like keyboard.)
+Mrs. Thumbo is a (set of) keyboard layout(s) derived from Colemak-DH (a
+"quick-learn" spinoff), taking ideas from more modern layouts to improve
+comfort: much less stretching (#1 original motivation due mostly to `m`),
+fewer redirects, better SFBs, etc. (Only ever tried with matrix-like
+keyboard.)
 
-**Note to QWERTYzens:** Mrs. Wolf has almost no overlap with qwerty. If you
-haven't trained for Colemak, you might want to start from scratch and head
+**Note to QWERTYzens:** Mrs. Thumbo has almost no overlap with qwerty. If you
+haven't trained for Colemak, you might start from scratch and head
 straight to one of [Oxey's tried and true layouts][11] or choose something
-from [Cyanophage's visual list][1] that suits your goals. However, Mrs. Wolf
+from [Cyanophage's visual list][1] that suits your goals. However, Mrs. Thumbo
 competes statistically with the best of them; it just hasn't been tested
 outside of my own slow hands. (Or if you want a minor change with significant
 improvements yet minimal changes, see QWRT at the bottom.)
@@ -23,10 +24,14 @@ improvements yet minimal changes, see QWRT at the bottom.)
 - Progressive intermediate-step layout(s)
 - Avoid untenable editor combo-key columns (eg, `pnb`, explanation below)
 
-Mrs. T is ~easy~ possible to learn if you've been in Colemak land and thinking
-it could be better: only ~4 high-impact keys have changed significantly (10
-total), and most feel intuitive: **l o m a**. The home row has all the same
-keys and only **m** and **a** have changed (capitalized significant changes).
+Mrs. Thumbo is ~easy~ possible to learn if you've been in Colemak land and
+thinking it could be better: in the "Wolf layout only ~4 high-impact keys have
+changed significantly (10 total), and most feel intuitive: **l o m a**. The
+home row has all the same keys and only **m** and **a** have changed
+(capitalized significant changes).
+
+Here is the entry-point version, called "Wolf". Head down to the "PB&J"
+section if you're wanting to make more changes for more reward.
 
 ```
 w L f p Q   j B u y '
@@ -43,15 +48,16 @@ V x c d K   Z h , . /
 Those are the simple stats I seem to care most about; all are from
 [Oxey's Layout Playground][3] analyzer with punctuation turned off
 (to get the most level playing field, and since anyone should come up with
-their own prefs for those, depending on whether you write code or prose).
+their own prefs for those, depending on whether you write more code or
+prose).
 
-According to [Cyanophage][1], Mrs. Wolf ranks roughly #4 (with some generous
+According to [Cyanophage][1], Mrs. Thumbo ranks roughly #4 (with some generous
 ties) across all ~30 layouts in Effort, SFBs, and DSFBs. Also good with
 Laterals and Scissors.
 
 A few locations are still suboptimal: `p`, `c`, `n` all cause a lot of
 theoretical SFBs, but I consider SFBs to be nearly 0% if you're willing to
-learn to alt-finger stacks like `sc`, `pt`, etc; Mrs. Wolf was designed to
+learn to alt-finger stacks like `sc`, `pt`, etc; Mrs. Thumbo was designed to
 make almost all pretty reasonable to alt.
 
 Here's what's the same as Colemak-DH (if you squint at `w` and `k`):
@@ -63,9 +69,9 @@ w   f p     j   u y '
 ```
 
 And here are the ones I consider the "core anchors" that set the stage for all
-the things that constrain Mrs. Wolf into being what it is — the things that I
-feel would be hardest to rewire our and hands for and didn't want to touch
-(though `p`/PB&J may be worth it, see section below):
+the things that constrain Mrs. Thumbo into being what it is — the things that
+I feel would be hardest to rewire our and hands for and didn't want to touch
+in "Wolf" (though `p`/PB&J may be worth it, see section below):
 
 ```
     f p         u y '
@@ -75,7 +81,7 @@ feel would be hardest to rewire our and hands for and didn't want to touch
 
 As you can see, the whole Colemak-DH core is untouched (ignoring pinkies)!
 
-**Bottom line: Mrs. Wolf made a few good compromises to maintain the Colemak
+**Bottom line: Mrs. Thumbo made a few good compromises to maintain the Colemak
 feel, while still statistically ranking among the very best layouts.**
 
 BTW, `o` on thumb is awesome _once you get used to it_.
@@ -156,7 +162,7 @@ makes it a pretty good thumb letter for faster learning.
   the keyboard is now to take you to _beginning_ of the line. This was a
   surprisingly easy move for my hands though, and really is what gets you to
   having the important vowel (and consonant) hand(s) (common to most modern
-  layouts).
+  layouts), which really helps with redirects.
 
 - `w` — Barely notice the change since so close to original spot. But see
   option to put it on bottom, which is harder but better IMO, described below.
@@ -204,7 +210,7 @@ the right hand.
 
 ## Variants
 
-The point of Mrs. Wolf is to offer a set of feasible changes from Colemak that
+The point of Mrs. Thumbo is to offer a set of feasible changes from Colemak that
 are easy enough to adjust to while improving the overall feel, and to get more
 folks comfortable with tweaking it to fit their priorities. The following are
 some ideas you could adopt or riff off of.
@@ -234,22 +240,22 @@ W L c d K   Z h , . /
         o
 ```
 
-Despite this potentially ruining the Wolf brand `:P` I do like the feel of
-`wl` on bottom (and `vx` on top). I did some hand-calculating to conclude that
-it is indeed better for travel distance to put `l` on the bottom (with `c` and
-`d` so near and dear). And then `w` needs to be next to `l`. But I also like
-having `x` on the bottom for Emacs reasons (though easy adjustment). And you
-might want to keep `vx` on the bottom for cut/paste purposes (though overrated
-IMO). Maybe try both and decide for yourself. It's a bigger departure from
-Colemak to have `vx` on top, and thus a lot slower to learn, but it's what I'm
-using now. Also, lots of folks believe you shouldn't put high loads on
-non-index bottoms, but I find it pretty comfortable with an active thumb-`o`
-already down there (and a naturally tight, curly hand).
+I do like the feel of `wl` on bottom (and `vx` on top). I did some
+hand-calculating to conclude that it is indeed better for travel distance to
+put `l` on the bottom (with `c` and `d` so near and dear). And then `w` needs
+to be next to `l`. But I also like having `x` on the bottom for Emacs reasons
+(though easy adjustment). And you might want to keep `vx` on the bottom for
+cut/paste purposes (though overrated IMO). Maybe try both and decide for
+yourself. It's a bigger departure from Colemak to have `vx` on top, and thus a
+lot slower to learn, but it's what I'm using now. Also, lots of folks believe
+you shouldn't put high loads on non-index bottoms, but I find it pretty
+comfortable with an active thumb-`o` already down there (and a naturally
+tight, curly hand).
 
 Another advantage of `wl` on bottom is that `rl` is an easy downward alt
 (ring-over-middle), whereas the opposite is clumsier (ring and pinky).
 
-### Version without thumb-`o`:
+### Mrs. YOU (version without thumb-`o`):
 
 ```
 w l f p b   j Y O U '
@@ -296,22 +302,33 @@ v x c d q   z h , . /
 > - Lsb:  0.620%
 > - BadRedirects: 0.229%
 
-Turns out this ends up looking a fair bit like [crest], [Hands Right], and
-[APTv3].
-
 ### PB&J, drifting even farther
 
 Further diverging from Colemak, you can move `p` to the right and `b` down.
-This opens up a spot on left for a ["magic"][10] key (above `f`) if you've
+This opens up a spot on left for a ["magic"][10] key (above `t`) if you've
 been wanting to try it (or whatever syntax is handy, like `-` for lisp, or `_`
-for others). It's also very nice to have the prev/back/next mnemonics together (almost
-like a WASD or HJKL) for those three for Emacs, shell, etc. I also found the
-transition to this to be particularly easy given the spatial feeling of `prev`
-being on top etc. Stats are wild too, and it feels great. This is what I've landed
-on now for my daily driver.
+for others). It's also very nice to have the prev/back/next mnemonics together
+(almost like a WASD or HJKL) for those three for Emacs, shell, etc. I also
+found the transition to this to be particularly easy given the spatial feeling
+of `prev` being on top etc. And it's really interesting to discover that
+moving (`p`) to an identical position on the opposite hand was easy! Stats are
+wild too, and it feels great. So this is what I've landed on now for my daily
+driver.
+
+Another (optional) move here is putting `v` on top-index. This makes for a
+couple novelties:
+
+- There is a secondary left-hand "home row" in `wlcdk`. Those co-occur well
+  together to minimize travel. And then the left-top row has minimal work
+  to do, similar to right-bottom. That makes for an interesting asymmetry, but
+  I don't see it causing problems.
+- My personal realization that the middle finger is long and dextrous and
+  can almost always reach over to hit the `v` (and `t` and `d`) and often needs
+  to, so when alt-ing, index is kinda responsible for only 5 keys, and middle
+  gets 4+!
 
 ```
-v x f   q   j p u y '
+- x f v q   j p u y '
 m r s t g   b n e a i
 w l c d k   z h , . /
         o
@@ -322,21 +339,10 @@ w l c d k   z h , . /
 > - Lsb:  1.478%
 > - BadRedirects: 0.160%
 
-### More smooth moves
+Now if you want even less pinky effort, swap the `v` and `w`, but SFBs get a
+worse — too many logjams IMO.
 
-If you want to go stats wild on the left, move `m`, `c`, `p`, `v`:
-
-```
-w l f m j
-c r s t g
-p x v d k
-```
-
-Swapping `p` and `m` is a big stats boost. But obviously a harder change. And
-I don't feel like the `pt` stack is actually a problem. Besides, I find having
-`p`(rev) and `n`(ext) on high/low indexes really intuitive for editors.
-
-## How Mrs. Wolf was designed (thank yous!!)
+## How Mrs. Thumbo was designed (thank yous!!)
 
 Lots of studying of existing layouts at [Cyanophage][1].
 
@@ -346,15 +352,6 @@ FF/chrome afaict).
 [Graphite][5]'s [Layout Doc][7] is a mind-expanding read.
 
 Reading many insightful reddit threads on `r/KeyboardLayouts`.
-
-## Challenges/quirks/annoyances
-
-- `pl` and `fl` are a little scissory
-- `move` is terrible. I try to hit `m` with ring and `v` with pinky.
-- `beh` alted takes a while to learn, but the same as `hel` you got used to
-- `b_n` is common and trainable as an important alt
-  with Colemak-DH
-- `tomorrow` is a lot for one hand
 
 ## Interesting learnings
 
@@ -386,19 +383,21 @@ vice versa.
 
 ## How to learn
 
-You're probably here because you already know Colemak, so these go without
+You're probably here because you already know Colemak, so these may go without
 saying, but still:
 
-- [Monkeytype][9] — so featureful and well done
-- [Keybr][8] — for extra repetition
+- [Monkeytype][9] — so featureful and well done; use exclude lists
+- [Keybr][8] — for extra repetition each time you make a change
+- [Trigrams practice][12] — choose a dense exercise list that works the most
+  common trigrams and load it into monkeytype
 
 My personal learning timeline has felt pretty slow. It took me a few weeks of
 messing around with several layouts, and then having to unlearn most of it,
 including a few thumb attempts. I ended up a mess of Colemak/Canary/Graphite,
-and a few others. Then once having settled on Mrs. Wolf, then really Mrs. Fox,
-it took me a couple weeks to hit 50 WPM. However, I was able to feel
-productive enough writing code in Emacs after a few days of hitting monkeytype
-and keybr pretty hard.
+and a few others. Then once having settled on Mrs. Thumbo, then really Mrs. Fox,
+and then even more changes, it took me a couple weeks to hit 50 WPM. However,
+I was able to feel productive enough writing code in Emacs after a few days of
+hitting monkeytype and keybr pretty hard.
 
 ## Alt fingering
 
@@ -420,8 +419,8 @@ an example.
 
 ## Reference Implementation
 
-Probably not useful, but at least the picture gives some context for one
-attempt at easier alt-fingering, using QMK:
+Probably not useful with my keyboard's obscure setup, but at least the picture
+gives some context for one attempt at easier alt-fingering, using QMK:
 [anatak60][4](`mrswlf` branch).
 
 [1]: https://cyanophage.github.io/
@@ -435,6 +434,7 @@ attempt at easier alt-fingering, using QMK:
 [9]: https://monkeytype.com/
 [10]: https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md
 [11]: https://oxey.dev/index.html
+[12]: https://www.reddit.com/r/typing/comments/172umsd/896_trigrams_in_200_words_a_new_selection_of/
 
 ## QWRT (not tried!)
 
