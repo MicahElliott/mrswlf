@@ -7,12 +7,12 @@ fewer redirects, better SFBs, etc. (Only ever tried with matrix-like
 keyboard.)
 
 **Note to QWERTYzens:** Mrs. Thumbo has almost no overlap with qwerty. If you
-haven't trained for Colemak, you might start from scratch and head
-straight to one of [Oxey's tried and true layouts][11] or choose something
-from [Cyanophage's visual list][1] that suits your goals. However, Mrs. Thumbo
+haven't trained for Colemak, you might start from scratch and head straight to
+one of [Oxey's tried and true layouts][11] or choose something from
+[Cyanophage's visual list][1] that suits your goals. However, Mrs. Thumbo
 competes statistically with the best of them; it just hasn't been tested
-outside of my own slow hands. (Or if you want a minor change with significant
-improvements yet minimal changes, see QWRT at the bottom.)
+outside of my own slow hands. (Or if you just want a minor change to QWERTY with
+significant improvements yet minimal changes, see QWRT at the bottom.)
 
 ## Goals
 
@@ -215,23 +215,14 @@ are easy enough to adjust to while improving the overall feel, and to get more
 folks comfortable with tweaking it to fit their priorities. The following are
 some ideas you could adopt or riff off of.
 
-### Optional Moves
+### Mrs. Wolf
 
-Most of the low-freq key moves aren't super important, statistically. I did
-find that moving `v` was a really good lateral win. `q` just feels better on
-the left-hand to me since always combined with `u`. You might consider a macro
-to turn `q` into `qu`. But I like a plain `q` for other reasons.
-
-If you're all about the stats (and don't care about breaking your head), these
-will get you even further:
-
-- Swap `m` and `p`, or `m` and `c`
-- Any others you think of?
+See the top intro section.
 
 ### Mrs. Fox
 
-**Big Decision**: I tried moving `wl` and `vx` each (and combos) to top and
-bottom (maintaining their order) — the analyzers treat them mostly the same.
+I tried moving `wl` and `vx` each (and combos) to top and bottom (maintaining
+their order) — the analyzers treat them mostly the same.
 
 ```
 V X f p Q   j B u y '
@@ -255,7 +246,7 @@ tight, curly hand).
 Another advantage of `wl` on bottom is that `rl` is an easy downward alt
 (ring-over-middle), whereas the opposite is clumsier (ring and pinky).
 
-### Mrs. YOU (version without thumb-`o`):
+### Mrs. You (version without thumb-`o`):
 
 ```
 w l f p b   j Y O U '
@@ -315,17 +306,12 @@ moving (`p`) to an identical position on the opposite hand was easy! Stats are
 wild too, and it feels great. So this is what I've landed on now for my daily
 driver.
 
-Another (optional) move here is putting `v` on top-index. This makes for a
-couple novelties:
-
-- There is a secondary left-hand "home row" in `wlcdk`. Those co-occur well
-  together to minimize travel. And then the left-top row has minimal work
-  to do, similar to right-bottom. That makes for an interesting asymmetry, but
-  I don't see it causing problems.
-- My personal realization that the middle finger is long and dextrous and
-  can almost always reach over to hit the `v` (and `t` and `d`) and often needs
-  to, so when alt-ing, index is kinda responsible for only 5 keys, and middle
-  gets 4+!
+Another (optional) move here is putting `v` on top-index. This makes for
+something of a secondary left-hand "home row" in `wlcdk`. Those co-occur well
+together to minimize travel. And then the left-top row has minimal work to do,
+similar to right-bottom. That makes for an interesting asymmetry, but I don't
+see it causing problems. The move also eliminated the `v_l` trigram that had
+been feeling awkwardly scissory.
 
 ```
 - x f v q   j p u y '
@@ -340,7 +326,7 @@ w l c d k   z h , . /
 > - BadRedirects: 0.160%
 
 Now if you want even less pinky effort, swap the `v` and `w`, but SFBs get a
-worse — too many logjams IMO.
+worse — too many logjams IMO. But let's brand this tweak as "VeLOCD" anyway.
 
 ## How Mrs. Thumbo was designed (thank yous!!)
 
@@ -381,7 +367,12 @@ Left and right hand design can be done somewhat independently. IOW, if you see
 a left-hand layout you really like, use it, and do wtfyw with the right, and
 vice versa.
 
-## How to learn
+A realization that the middle finger is long and dextrous and, eg, can
+almost always reach over to hit the `v` (and `t` and `d`) and often needs to,
+so when alt-ing, index is kinda responsible for only 5 keys, and middle gets
+4+!
+
+## How to learn/practice
 
 You're probably here because you already know Colemak, so these may go without
 saying, but still:
