@@ -6,6 +6,8 @@ comfort: much less stretching (#1 original motivation due mostly to `m`),
 fewer redirects, better SFBs, etc. (Only ever tried with matrix-like
 keyboard.)
 
+![thumbo](keeb.jpg)
+
 **Note to QWERTYzens:** Mrs. Thumbo has almost no overlap with qwerty. If you
 haven't trained for Colemak, you might start from scratch and head straight to
 one of [Oxey's tried and true layouts][11] or choose something from
