@@ -504,66 +504,85 @@ Vs QWERTY stats:
 > - Lsb:   6.623%
 > - BadRedirects: 1.401%
 
-### Mrs. Qwerty
+### Mrs. Qwerty, a learning sequence
 
 More seriously now, if you are coming from qwerty and are interested in any
-Thumbo variant, here are some transitional layouts (in the spirit of
+Thumbo variant, here is a sequence of some transitional layouts (in the spirit of
 [Tarmak][14]) with pretty OK stats that get you progressively all the way
-there. You probably want to spend a couple days to a week or so with each one.
+there. You probably want to spend a couple days to a week or so with each one
+— at least that's the duration worked for me with Tarmak some years ago.
 
-#### Week 1
+#### Week 1 (24% freq change)
 
-Well, the stats for this first one are not great, but still way better than
-qwerty; changes 5 keys: **l e a x k**. `k` is not permanent, but unimportant
-enough to float around through the month. `x` is another floater. This should
-be the hardest week, given all the hand swapping. But on the bright side, `l`,
-`e`, `a` are the only important ones.
+Well, the stats for this first one are not good: better than qwerty but with
+different pains; care was taken to not make it worse! `k` is not permanent,
+but unimportant enough to float around through the month. `x` is another
+floater. And `;` disappears because you can decide eventually where you want
+it. This should be the hardest week, given the hand swapping, and still being
+a terrible layout. But on the bright side, `l`, `e`, `a` are the only
+heavy ones. And congrats!! You will now have a vowel hand!
+
+_Changes 3 major keys: **L E A x k**_.
+(The significant/important/major keys
+being moved are upper-case on these "change lines", but in diagrams below, all
+changes are capitalized.)
 
 ```
 q w X r t    y u i o p
-K s d f g    h j E A ;
+K s d f g    h j E A
 z L c v b    n m
 ```
 
-#### Week 2
+> 3.7, 11.7, 8.7, 0.5 (abbreviated stats)
 
-3 more, with hand swap!: **m k h**
+#### Week 2 (20% freq change)
+
+_4 more majors, with hand swap! and starting to feel much smoother: **F T M H k x**_
 
 ```
-q w x r t    y u i o p
-M s d f g    K j e a ;
+q w F r X    y u i o p
+M s d T g    K j e a
 z l c v b    n H
 ```
 
-#### Week 3
+> 3.1, 10.1, 5.6, 0.4
 
-6 more, all left hand: **f v r s t d**
+#### Week 3 (18% freq change)
+
+_4 more majors, all left hand: **V R S D**._
 
 ```
-q w F V x    y u i o p
-m R S T g    k j e a x
+q w f V x    y u i o p
+m R S t g    k j e a
 z l c D b    n h
 ```
 
-#### Week 4
+> 2.1, 9.2, 5.7, 0.4
 
-5 more, right hand this time: **p u y n j** (
+#### Week 4 (14% freq change)
+
+_4 more majors, right hand this time: **P U Y N j**_
+(and you might move `j` to
+bottom if it's better on your keyboard). You're very close with these, and
+next week is just minor.
 
 ```
-q w f v x      P U o Y
+q w f v x    J P U o Y
 m r s t g    k N e a I
-z l c d b    J h
+z l c d b      h
 ```
 
-#### Week 5 (You made it! This is the real thing now!)
+> 1.0, 7.1, 0.6, 0.2
 
-3 more: **w z b**. (Swap `q` and `x` too if you want a tiny bit more
+#### Week 5 (Only 3.5% freqs! You made it! This is the real thing now!)
+
+2 more (semi-)majors: **W B z k**. (Swap `q` and `x` too if you want a tiny bit more
 improvement.)
 
 ```
-q Z f v x      p u o y
+q Z f v x    j p u o y
 m r s t g    B n e a i
-W l c d K    j h
+W l c d K      h
 ```
 
 > - Sfb:   0.791%
