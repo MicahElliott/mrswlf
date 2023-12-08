@@ -8,13 +8,14 @@ keyboard.)
 
 ![thumbo](keeb.jpg "PB&B variant")
 
-**Note to QWERTYzens:** Mrs. Thumbo has very little overlap with qwerty. If
-you haven't trained for Colemak, you _could_ start from scratch and head
-straight to one of [Oxey's tried and true layouts][11] or choose something
-from [Cyanophage's visual list][1] that suits your goals. That said, Mrs.
-Thumbo competes statistically with the best of them; it just hasn't been
-tested beyond my own slow hands. There is also a path from QWERTY at the
-bottom of this guide.
+**Note to QWERTYzens:** Mrs. Thumbo has very little overlap with qwerty. It
+was originally designed to transition from Colemak, but it turned out way
+better than expected. If you haven't trained for Colemak, you _could_ start
+from scratch and head straight to one of [Oxey's tried and true layouts][11]
+or choose something from [Cyanophage's visual list][1] that suits your goals.
+That said, Mrs. Thumbo competes statistically with the best of them; it just
+hasn't been tested beyond my own slow hands. There is a 5-week transition
+path/course from QWERTY at the bottom of this guide.
 
 ## Goals
 
@@ -576,7 +577,7 @@ z l c d b      h
 
 #### Week 5 (Only 3.5% freqs! You made it! This is the real thing now!)
 
-2 more (semi-)majors: **W B z k**. (Swap `q` and `x` too if you want a tiny bit more
+_2 more (semi-)majors: **W B z k**._ (Swap `q` and `x` too if you want a tiny bit more
 improvement.)
 
 ```
