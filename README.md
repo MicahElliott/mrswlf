@@ -491,6 +491,7 @@ gives some context for one attempt at easier alt-fingering, using QMK:
 [12]: https://www.reddit.com/r/typing/comments/172umsd/896_trigrams_in_200_words_a_new_selection_of/
 [13]: https://sites.google.com/alanreiser.com/handsdown/home
 [14]: https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/
+[15]: https://apps.apple.com/my/app/keybuild/id1547174534
 
 ## Coming from QWERTY
 
