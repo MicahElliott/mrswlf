@@ -437,6 +437,7 @@ saying, but still:
 - [Keybr][8] — for extra repetition each time you make a change
 - [Trigrams practice][12] — choose a dense exercise list that works the most
   common trigrams and load it into monkeytype
+- [Keybuild app][15] — alternative keyboard for iphone
 
 My personal learning timeline has felt pretty slow. It took me a few weeks of
 messing around with several layouts, and then having to unlearn most of it,
@@ -445,6 +446,12 @@ and a few others. Then once having settled on Mrs. Thumbo, then really Mrs. Fox,
 and then even more changes, it took me a couple weeks to hit 50 WPM. However,
 I was able to feel productive enough writing code in Emacs after a few days of
 hitting monkeytype and keybr pretty hard.
+
+Using my phone with qwerty has always been a jarring setback. Picking up the
+_Keybuild_ app and putting Colemak, and now PB&J into it have made learning a
+lot easier.
+
+![keybuild](keybuild.jpg)
 
 ## Alt fingering
 
