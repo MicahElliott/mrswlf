@@ -6,6 +6,11 @@ comfort: much less stretching (#1 original motivation due mostly to `m`),
 fewer redirects, better SFBs, etc. (Only ever tried with matrix-like
 keyboard.)
 
+> **WARNING:** _This is a long read. But messing with your layout is a huge
+> commitment impacting potentially thousands of hours. So if you're seriously
+> considering a change, take your time here and weigh whether hundreds of
+> hours of decreased typing speed is worth being more comfortable._
+
 ![thumbo](keeb.jpg "PB&B variant")
 
 **Note to QWERTYzens:** Mrs. Thumbo has very little overlap with qwerty. It
@@ -301,22 +306,22 @@ W L c d K   Z h , . /
 I like the feel of `wl` on bottom (and `vx` on top). I did some
 hand-calculating to conclude that it is indeed better for travel distance to
 put `l` on the bottom (with `c` and `d` so near and dear). And then `w` needs
-to be next to `l`. And you might want to keep `vx` on the bottom for
-cut/paste purposes (though way overrated IMO). Maybe try both and decide for
-yourself. It's a bigger departure from Colemak to have `vx` on top, and thus
-slower to learn, but it's what I'm using now. Also, lots of folks believe
-you shouldn't put high loads on non-index bottoms, but I find it pretty
-comfortable with an active thumb-`o` already down there (and a naturally
-tight, curly hand).
+to be next to `l`. _You_ might want to keep `vx` on the bottom for cut/paste
+purposes, though that's way overrated IMO. It's a bigger departure from
+Colemak to have `vx` on top, and thus slower to learn, but it's what I'm using
+now. Lots of folks believe you shouldn't put high loads on non-index
+bottoms, but I find it pretty comfortable with an active thumb-`o` already
+down there.
 
 This makes for something of a secondary left-hand "home row" in `wlcdk`. Those
 co-occur well together to minimize travel. And then the left-top row has
 minimal work to do, similar to right-bottom. That makes for an interesting
-asymmetry (high right, low left), but I don't see it causing problems. This is
-Colemak's fault for putting `c` and `d` on bottom, and it's hard to change.
+asymmetry (low left, high right), but I don't see it causing problems. This is
+Colemak's fault for putting `c` and `d` on bottom, and it's hard to change
+(and not necessary).
 
 Another advantage of `wl` on bottom is that `rl` is an easy downward alt
-(ring-over-middle), whereas the opposite is clumsier (ring and pinky without
+(ring-over-middle), whereas the opposite is clumsy (ring and pinky, without
 careful lookahead).
 
 ### PB&J, drifting even further (my fave!)
