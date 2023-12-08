@@ -1,6 +1,6 @@
 # Mrs. Thumbo
 
-Mrs. Thumbo is a (set of) keyboard layout(s) derived from Colemak-DH (a
+Mrs. Thumbo is a (set of) keyboard layout(s) derived from Colemak(-DH) (a
 "quick-learn" spinoff), taking ideas from more modern layouts to improve
 comfort: much less stretching (#1 original motivation due mostly to `m`),
 fewer redirects, better SFBs, etc. (Only ever tried with matrix-like
@@ -8,32 +8,36 @@ keyboard.)
 
 ![thumbo](keeb.jpg "PB&B variant")
 
-**Note to QWERTYzens:** Mrs. Thumbo has almost no overlap with qwerty. If you
-haven't trained for Colemak, you might start from scratch and head straight to
-one of [Oxey's tried and true layouts][11] or choose something from
-[Cyanophage's visual list][1] that suits your goals. However, Mrs. Thumbo
-competes statistically with the best of them; it just hasn't been tested
-outside of my own slow hands. (Or if you just want a minor change to QWERTY with
-significant improvements yet minimal changes, see QWRT at the bottom.)
+**Note to QWERTYzens:** Mrs. Thumbo has very little overlap with qwerty. If
+you haven't trained for Colemak, you _could_ start from scratch and head
+straight to one of [Oxey's tried and true layouts][11] or choose something
+from [Cyanophage's visual list][1] that suits your goals. That said, Mrs.
+Thumbo competes statistically with the best of them; it just hasn't been
+tested beyond my own slow hands. There is also a path from QWERTY at the
+bottom of this guide.
 
 ## Goals
 
-- "Learnable" from Colemak-DH in a few days to weeks (except `o`), by
-  minimizing home row changes (and other high-freqs)
-- Drastically decrease lateral stretching (eg, `m` moved from right hand)
-- Reduce redirects
+- "Learnable" from Colemak in a few days to weeks (except `o`), by minimizing
+  home row changes (and other high-freqs)
+- Drastically decrease lateral stretching (eg, `m` moved from right hand),
+  reduce redirects, improve (D)SFBs
 - Alt-finger/pivot workarounds possible for nearly every (D)SFB
-- Progressive intermediate-step layout(s)
-- Avoid untenable editor combo-key columns (eg, `pnb`, explanation below)
+- Variants for various individual objectives (eg, no thumb)
+- Progressive intermediate-step layout(s) possible from Colemak (and QWERTY!)
+- Avoid untenable editor combo-key columns (eg, `pnb` on same finger,
+  explanation below)
 
 Mrs. Thumbo is ~easy~ possible to learn if you've been in Colemak land and
 thinking it could be better: in the "Wolf" layout only ~4 high-impact keys have
-changed significantly (10 total), and most feel intuitive: **l o m a**. The
+changed significantly (~8 total), and most feel intuitive: **l o m a**. The
 home row has all the same keys and only **m** and **a** have changed
 (capitalized significant changes).
 
 Here is the entry-point version, called "Wolf". Head down to the "PB&J"
-section if you're wanting to make more changes for more reward.
+section if you're wanting to make more changes for more reward; and note that
+there's a clear progression from Wolf to PB&J, if you just start with Wolf,
+and PB&J should probably be the end goal.
 
 ```
 w L f p Q   j B u y '
@@ -48,19 +52,22 @@ V x c d K   Z h , . /
 > - BadRedirects: 0.142%
 
 Those are the simple stats I seem to care most about; all are from
-[Oxey's Layout Playground][3] analyzer with punctuation turned off
-(to get the most level playing field, and since anyone should come up with
+[Oxey's Layout Playground][3] analyzer (with punctuation turned off
+to get the most level playing field, and since anyone should come up with
 their own prefs for those, depending on whether you write more code or
 prose).
 
-According to [Cyanophage][1], Mrs. Thumbo ranks roughly #4 (with some generous
-ties) across all ~30 layouts in Effort, SFBs, and DSFBs. Also good with
-Laterals and Scissors.
+According to [Cyanophage][1], Mrs. Thumbo variants rank roughly #4 (with some
+generous ties) across all ~30 layouts in Effort, SFBs, and DSFBs. Also does
+well with Laterals and Scissors.
 
 A few locations are still suboptimal: `p`, `c`, `n` all cause a lot of
 theoretical SFBs, but I consider SFBs to be nearly 0% if you're willing to
 learn to alt-finger stacks like `sc`, `pt`, etc; Mrs. Thumbo was designed to
-make almost all pretty reasonable to alt.
+make almost all pretty reasonable to alt. It's the "logjams" that are really
+the problem that Thumbo avoids, which I define as having adjusted your hand to
+avoid an SFB, but then hitting others and running out of fingers or tying a
+knot.
 
 Here's what's the same as Colemak-DH (if you squint at `w` and `k`):
 
@@ -223,10 +230,11 @@ the following variants.
 
 ### Mrs. You (version without thumb-`o`):
 
-I feel that `o` on thumb is awesome _once you get used to it_. However,
-someone may come along and prove it's a terrible idea. I think that's
-unlikely, but here are a couple thumbless variants just in case, or if you
-don't have thumbs.
+I feel that `o` on thumb is awesome _once you get used to it_.
+Yes, it's slow to type `oo`.
+And Someone may come along and prove it's a terrible idea.
+I think that's unlikely, but here are a couple thumbless variants just
+in case, or if you don't have thumbs. Also, foot pedal??
 
 ```
 w l f p b   j Y O U '
@@ -303,7 +311,8 @@ tight, curly hand).
 This makes for something of a secondary left-hand "home row" in `wlcdk`. Those
 co-occur well together to minimize travel. And then the left-top row has
 minimal work to do, similar to right-bottom. That makes for an interesting
-asymmetry (high right, low left), but I don't see it causing problems.
+asymmetry (high right, low left), but I don't see it causing problems. This is
+Colemak's fault for putting `c` and `d` on bottom, and it's hard to change.
 
 Another advantage of `wl` on bottom is that `rl` is an easy downward alt
 (ring-over-middle), whereas the opposite is clumsier (ring and pinky without
@@ -325,8 +334,13 @@ what I've landed on now for my daily driver.
 It makes LSBs (lateral) significantly worse, but reaching for `b` isn't nearly
 as bad as I had expected. And makes for a pretty easy `ph` alt.
 
-Another (optional) move here is putting `v` on top-index. It eliminated
-the scissory `v_l` trigram that had been feeling awkward.
+Another (optional) move here is putting `v` on top-index. It eliminated the
+scissory `v_l` trigram that had been feeling awkward. This move turned out to
+be really helpful. It also had the great side-effect of putting punctuation
+symmetrimcally on both upper pinkies, which is great for multiple "leader
+keys" (`-` and `'`) as introduced by Vim. Eg, `-p` is the "project" menu, and
+`'g` is for starting git commands. Maybe `-` isn't a good leader (`q` instead)
+but you get the point ... kinda. So maybe I'll swap `q` and `-`.
 
 ```
 - x f V q   j P u y '
@@ -381,7 +395,7 @@ too stretchy (and has the `one` showstopper).
 
 Nerts and its ilk are pretty neat. I got far enough with Graphite (tweaked to
 `nrst`/`heia`) to be able to type (slooowly) and feel some clean/natural
-movement, but it was way too hard to retrain my brain to do anything in Emacs,
+movement, but it was way too hard to retrain my hands to do anything in Emacs,
 and it felt like it would have been months before I could be productive. There
 was also the major issue of winding up with a `pnb` column on left-pinky (or
 anywhere) — that was way too much for Emacs pinky to handle. Really, `p`(rev)
@@ -463,11 +477,14 @@ gives some context for one attempt at easier alt-fingering, using QMK:
 [11]: https://oxey.dev/index.html
 [12]: https://www.reddit.com/r/typing/comments/172umsd/896_trigrams_in_200_words_a_new_selection_of/
 [13]: https://sites.google.com/alanreiser.com/handsdown/home
+[14]: https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/
 
-## QWRT (not tried!)
+## Coming from QWERTY
 
-This was just for fun, a qwerty spin-off that changes just a few letters
-(`a`/`e`/`l` the only major ones), but improves most stats 2-4x!
+### QWRT (not tried!)
+
+This was just for fun, a qwerty spin-off that changes just a few letters as
+the end-game (`a`/`e`/`l` the only major ones), but improves most stats 2-4x!
 
 ```
 q w r t     y u i o p
@@ -486,3 +503,73 @@ Vs QWERTY stats:
 > - Dsfb: 10.708%
 > - Lsb:   6.623%
 > - BadRedirects: 1.401%
+
+### Mrs. Qwerty
+
+More seriously now, if you are coming from qwerty and are interested in any
+Thumbo variant, here are some transitional layouts (in the spirit of
+[Tarmak][14]) with pretty OK stats that get you progressively all the way
+there. You probably want to spend a couple days to a week or so with each one.
+
+#### Week 1
+
+Well, the stats for this first one are not great, but still way better than
+qwerty; changes 5 keys: **l e a x k**. `k` is not permanent, but unimportant
+enough to float around through the month. `x` is another floater. This should
+be the hardest week, given all the hand swapping. But on the bright side, `l`,
+`e`, `a` are the only important ones.
+
+```
+q w X r t    y u i o p
+K s d f g    h j E A ;
+z L c v b    n m
+```
+
+#### Week 2
+
+3 more, with hand swap!: **m k h**
+
+```
+q w x r t    y u i o p
+M s d f g    K j e a ;
+z l c v b    n H
+```
+
+#### Week 3
+
+6 more, all left hand: **f v r s t d**
+
+```
+q w F V x    y u i o p
+m R S T g    k j e a x
+z l c D b    n h
+```
+
+#### Week 4
+
+5 more, right hand this time: **p u y n j** (
+
+```
+q w f v x      P U o Y
+m r s t g    k N e a I
+z l c d b    J h
+```
+
+#### Week 5 (You made it! This is the real thing now!)
+
+3 more: **w z b**. (Swap `q` and `x` too if you want a tiny bit more
+improvement.)
+
+```
+q Z f v x      p u o y
+m r s t g    B n e a i
+W l c d K    j h
+```
+
+> - Sfb:   0.791%
+> - Dsfb:  6.134%
+> - Lsb:   1.418%
+> - BadRedirects: 0.228%
+
+This is basically _Mrs. Buoy_ (but even slightly better) and can now be
+tweaked to any of the others if wanted.
