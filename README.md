@@ -37,7 +37,7 @@ path/course from QWERTY [at the bottom of this guide](#mrs-qwerty).
         - [Mrs. You (version without thumb-`o`):](#mrs-you-version-without-thumb-o)
         - [Mrs. Buoy (another thumbless variation, not tried)](#mrs-buoy-another-thumbless-variation-not-tried)
         - [Mrs. Fox (back to the thumb)](#mrs-fox-back-to-the-thumb)
-        - [PB&J, drifting even further (my fave!) {#pbj}](#pbj-drifting-even-further-my-fave-pbj)
+        - [PB&J](#pbj)
         - [VeLOCD](#velocd)
     - [How Mrs. Thumbo was designed (thank yous!!)](#how-mrs-thumbo-was-designed-thank-yous)
     - [Interesting learnings](#interesting-learnings)
