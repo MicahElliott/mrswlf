@@ -357,7 +357,9 @@ Another advantage of `wl` on bottom is that `rl` is an easy downward alt
 (ring-over-middle), whereas the opposite is clumsy (ring and pinky, without
 careful lookahead).
 
-### PB&J, drifting even further (my fave!) {#pbj}
+### PB&J
+
+My fave and daily driver!
 
 Further diverging from Colemak, you can move `p` to the right and `b` down.
 This opens up a spot on left for a ["magic"][10] key (above `t`) if you've
@@ -467,6 +469,11 @@ so when alt-ing, index is kinda responsible for only 5 keys, and middle gets
 Punctuation/symbols really change the stats. I excluded them from most of the
 analyses, but they have strong impact on several metrics, including redirects.
 So experiment with them in the Playground and choose wisely.
+
+The [Trigrams practice][12] turns out to be a great way to test a
+layout/tweak. By running your hands through a couple hundred words upon each
+change, you get a feel for most common (and challenging) trigram patterns, and
+expose the any impossible sequences/logjams.
 
 ## How to learn/practice
 
