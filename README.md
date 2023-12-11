@@ -4,7 +4,7 @@ Mrs. Thumbo is a (set of) keyboard layout(s) derived from Colemak(-DH) (a
 "quick-learn" spinoff), taking ideas from more modern layouts to improve
 comfort: much less stretching (#1 original motivation due mostly to `m`),
 fewer redirects, better SFBs, etc. (Only ever tried with matrix-like
-keyboard.) The flagship recommended variant is called ["PB&J"](#pbj) and is
+keyboard.) The flagship recommended variant is called ["Mrs. PB&J"](#pbj) and is
 described a ways down.
 
 > **WARNING:** _This is a long read. But messing with your layout is a huge
@@ -22,38 +22,6 @@ or choose something from [Cyanophage's visual list][1] that suits your goals.
 That said, Mrs. Thumbo competes statistically with the best of them; it just
 hasn't been tested beyond my own slow hands. There is a 5-week transition
 path/course from QWERTY [at the bottom of this guide](#mrs-qwerty).
-
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-**Table of Contents**
-
-- [Mrs. Thumbo](#mrs-thumbo)
-    - [Goals](#goals)
-        - [About those lateral stretches](#about-those-lateral-stretches)
-    - [Intermediate Transitional (and other options)](#intermediate-transitional-and-other-options)
-    - [About the big (and small) moves](#about-the-big-and-small-moves)
-    - [Compelling Features](#compelling-features)
-    - [Variants](#variants)
-        - [Mrs. Wolf](#mrs-wolf)
-        - [Mrs. You (version without thumb-`o`):](#mrs-you-version-without-thumb-o)
-        - [Mrs. Buoy (another thumbless variation, not tried)](#mrs-buoy-another-thumbless-variation-not-tried)
-        - [Mrs. Fox (back to the thumb)](#mrs-fox-back-to-the-thumb)
-        - [PB&J](#pbj)
-        - [VeLOCD](#velocd)
-    - [How Mrs. Thumbo was designed (thank yous!!)](#how-mrs-thumbo-was-designed-thank-yous)
-    - [Interesting learnings](#interesting-learnings)
-    - [How to learn/practice](#how-to-learnpractice)
-    - [Alt fingering](#alt-fingering)
-    - [Reference Implementation](#reference-implementation)
-    - [Coming from QWERTY](#coming-from-qwerty)
-        - [QWRT (not tried!)](#qwrt-not-tried)
-        - [Mrs. Qwerty, a learning sequence {#mrs-qwerty}](#mrs-qwerty-a-learning-sequence-mrs-qwerty)
-            - [Week 1 (24% freq change)](#week-1-24-freq-change)
-            - [Week 2 (20% freq change)](#week-2-20-freq-change)
-            - [Week 3 (18% freq change)](#week-3-18-freq-change)
-            - [Week 4 (14% freq change)](#week-4-14-freq-change)
-            - [Week 5 (Only 3.5% freqs! You made it! This is the real thing now!)](#week-5-only-35-freqs-you-made-it-this-is-the-real-thing-now)
-
-<!-- markdown-toc end -->
 
 ## Goals
 
@@ -74,7 +42,7 @@ home row has all the same keys and only **m** and **a** have changed
 (capitalized significant changes).
 
 Here is the entry-point version, called "Wolf". Head down to the
-["PB&J"](#pbj) section if you're wanting to make more changes for more reward;
+[Mrs. PB&J](#pbj) section if you're wanting to make more changes for more reward;
 and note that there's a clear progression from Wolf to PB&J, if you just start
 with Wolf, and PB&J should probably be the end goal.
 
@@ -131,6 +99,38 @@ As you can see, the whole Colemak-DH core is untouched (ignoring pinkies)!
 
 **Bottom line: Mrs. Thumbo made a few good compromises to maintain the Colemak
 feel, while still statistically ranking among the very best layouts.**
+
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [Mrs. Thumbo](#mrs-thumbo)
+    - [Goals](#goals)
+        - [About those lateral stretches](#about-those-lateral-stretches)
+    - [Intermediate Transitional (and other options)](#intermediate-transitional-and-other-options)
+    - [About the big (and small) moves](#about-the-big-and-small-moves)
+    - [Compelling Features](#compelling-features)
+    - [Variants](#variants)
+        - [Mrs. Wolf](#mrs-wolf)
+        - [Mrs. You (version without thumb-`o`):](#mrs-you-version-without-thumb-o)
+        - [Mrs. Buoy (another thumbless variation, not tried)](#mrs-buoy-another-thumbless-variation-not-tried)
+        - [Mrs. Fox (back to the thumb)](#mrs-fox-back-to-the-thumb)
+        - [Mrs. PB&J](#mrs-pbj)
+        - [VeLOCD](#velocd)
+    - [How Mrs. Thumbo was designed (thank yous!!)](#how-mrs-thumbo-was-designed-thank-yous)
+    - [Interesting learnings](#interesting-learnings)
+    - [How to learn/practice](#how-to-learnpractice)
+    - [Alt fingering](#alt-fingering)
+    - [Reference Implementation](#reference-implementation)
+    - [Coming from QWERTY](#coming-from-qwerty)
+        - [QWRT (not tried!)](#qwrt-not-tried)
+        - [Mrs. Qwerty, a learning sequence {#mrs-qwerty}](#mrs-qwerty-a-learning-sequence-mrs-qwerty)
+            - [Week 1 (24% freq change)](#week-1-24-freq-change)
+            - [Week 2 (20% freq change)](#week-2-20-freq-change)
+            - [Week 3 (18% freq change)](#week-3-18-freq-change)
+            - [Week 4 (14% freq change)](#week-4-14-freq-change)
+            - [Week 5 (Only 3.5% freqs! You made it! This is the real thing now!)](#week-5-only-35-freqs-you-made-it-this-is-the-real-thing-now)
+
+<!-- markdown-toc end -->
 
 ### About those lateral stretches
 
@@ -213,25 +213,27 @@ makes it a pretty good thumb letter for faster learning.
 - `w` — Barely notice the change since so close to original spot. But see
   option to put it on bottom, which is harder but better IMO, described below.
 
-- `m` — Also surprisingly fast adjustment. Maybe since `m` was such a pain
-  before. You'd have to get used to having this on left for many layouts
-  anyway. Lots of long-term mistakes with it, though.
+- `m` — This location is something I haven't see done in any other layouts,
+  and I can't figure out why. Was a surprisingly fast adjustment; maybe since
+  `m` was such a pain before. You'd have to get used to having this on left
+  for many layouts anyway. Lots of long-term mistakes with it, though.
 
 - `l` — Not sure how it ever ended up above `n` — bad SFBs there, so it has to
   go somewhere comfy, and this is a common stack, above (or below) `r`.
 
-- `o` — Very challenging being on thumb. Wonder if it's worth trying only this
-  move independently for a week to see if it's workable for you. Other layouts
-  put `e` and `t` on thumb to seemingly great success (though haven't see any
-  other do `o`), so we know it's possible. Just takes a lot of focus on
-  learning. Was cutting my overall speed in half(!) for several days, and took
-  at least a week to be even a little comfortable. I recommend omitting it
-  from your typing trainer while learning the other changes. The reason `o`
-  has nowhere "normal" to go is because we take it as a given that we're stuck
-  with `n` on right-index, and we want a "vowel hand". `o` can't stay on
-  right-pinky because of the awful `you` redirect. `o` can't go above or below
-  `e` because `one` would be even worse than `you`. And anywhere else, SFBs go
-  crazy. So either `n` or `o` ends up losing its place on the vowel hand.
+- `o` — Also hasn't been done before afaict. Very challenging being on thumb.
+  Wonder if it's worth trying only this move independently for a week to see
+  if it's workable for you. Other layouts put `e` and `t` and others on thumb
+  to seemingly great success (though haven't see any other do `o`), so we know
+  it's possible. Just takes a lot of focus on learning. Was cutting my overall
+  speed in half(!) for several days, and took at least a week to be even a
+  little comfortable. I recommend omitting it from your typing trainer while
+  learning the other changes. The reason `o` has nowhere "normal" to go is
+  because we take it as a given that we're stuck with `n` on right-index, and
+  we want a "vowel hand". `o` can't stay on right-pinky because of the awful
+  `you` redirect. `o` can't go above or below `e` because `one` would be even
+  worse than `you`. And anywhere else, SFBs go crazy. So either `n` or `o`
+  ends up losing its place on the vowel hand.
 
 - `b` — Kinda hard adjustment, but feels amazing. On this layout: if you feel
   yourself stretching, you're probably reaching for the wrong key.
@@ -247,9 +249,9 @@ makes it a pretty good thumb letter for faster learning.
 
 ## Compelling Features
 
-The scores are maybe even better than they first appear. The SFUs
-are largely alt-able in easy ways. It inherits some quirks from Colemak, but
-you're used to them.
+The scores are maybe even better than they first appear. The SFUs are largely
+alt-able in easy ways. It inherits some quirks from Colemak, but you're used
+to them. Anyway, all layouts necessarily have some quirks.
 
 Mrs. Wolf's original key selling point is probably its "lateral stretch" score of
 `0.595%`. This is what happens when you remove that impossible `mn` combo from
@@ -357,7 +359,7 @@ Another advantage of `wl` on bottom is that `rl` is an easy downward alt
 (ring-over-middle), whereas the opposite is clumsy (ring and pinky, without
 careful lookahead).
 
-### PB&J
+### Mrs. PB&J
 
 My fave and daily driver!
 
@@ -375,14 +377,14 @@ what I've landed on now for my daily driver.
 It makes LSBs (lateral) significantly worse, but reaching for `b` isn't nearly
 as bad as I had expected. And makes for a pretty easy `ph` alt.
 
-Another (optional) move here is putting `v` on top-index (and using _Magic_
-elsewhere if you like). It eliminated the
-scissory `v_l` trigram that had been feeling awkward. This move turned out to
-be really helpful. It also had the great side-effect of putting punctuation
-symmetrimcally on both upper pinkies, which is great for multiple "leader
-keys" (`-` and `'`) as introduced by Vim. Eg, `-p` is the "project" menu, and
-`'g` is for starting git commands. Maybe `-` isn't a good leader (`q` instead)
-but you get the point ... kinda. So maybe I'll swap `q` and `-`.
+**PB&J-ii:** Another (optional) move here is putting `v` on top-index (and
+using _Magic_ elsewhere if you like). It eliminated the scissory `v_l` trigram
+that had been feeling awkward. This move turned out to be really helpful. It
+also had the great side-effect of putting punctuation symmetrimcally on both
+upper pinkies, which is great for multiple "leader keys" (`-` and `'`) as
+introduced by Vim. Eg, `-p` is the "project" menu, and `'g` is for starting
+git commands. Maybe `-` isn't a good leader (`q` instead) but you get the
+point ... kinda. So maybe I'll swap `q` and `-` and use `q` as _leader_.
 
 You could actually swap `p` and `v` from that if you prefer to not have to
 relearn the `p`; stats only slightly worse. And then no philosophers will be
@@ -401,6 +403,28 @@ w l c d k   z h , . /
 > - Dsfb: 5.279%
 > - Lsb:  1.478%
 > - BadRedirects: 0.160%
+
+If you did _PB&J-ii_ (`v` on top), you have the option to go back to `w l f`
+also on top which was always an easier change, and pleases the
+"strong-top-row" gods (and I think you can still swap the `v` and `p` for one
+less thing to learn):
+
+```
+W L f V q   j P u y '
+m r s t g   B n e a i
+- X c d k   z h , . /
+        o
+```
+
+Or:
+
+```
+W L f P q   j V u y '
+m r s t g   B n e a i
+- X c d k   z h , . /
+        o
+```
+
 
 ### VeLOCD
 
@@ -432,6 +456,9 @@ Everyone who has published a layout! There's something to be learned from all
 of them.
 
 [Hands Down][13] family for the various thumb ideas and fascinating layouts.
+
+Special thanks to Colemak for giving us an early, attainable pathway off of
+qwerty.
 
 ## Interesting learnings
 
@@ -483,7 +510,8 @@ saying, but still:
 - [Monkeytype][9] — so featureful and well done; use exclude lists
 - [Keybr][8] — for extra repetition each time you make a change
 - [Trigrams practice][12] — choose a dense exercise list that works the most
-  common trigrams and load it into monkeytype
+  common trigrams and load it into monkeytype, but also use the common
+  built-in lists to avoid frustration
 - [Keybuild app][15] — alternative keyboard for iphone
 
 My personal learning timeline has felt pretty slow. It took me a few weeks of
@@ -565,7 +593,7 @@ Vs QWERTY stats:
 > - Lsb:   6.623%
 > - BadRedirects: 1.401%
 
-### Mrs. Qwerty, a learning sequence {#mrs-qwerty}
+### Mrs. Qwerty, a learning sequence
 
 More seriously now, if you are coming from qwerty and are interested in any
 Thumbo variant, here is a sequence of some transitional layouts (in the spirit of
