@@ -2,10 +2,10 @@
 
 Mrs. Thumbo is a (set of) keyboard layout(s) derived from Colemak(-DH) (a
 "quick-learn" spinoff), taking ideas from more modern layouts to improve
-comfort: much less stretching (#1 original motivation due mostly to `m`),
-fewer redirects, better SFBs, etc. (Only ever tried with matrix-like
-keyboard.) The flagship recommended variant is called ["Mrs. PB&J"](#pbj) and is
-described a ways down.
+comfort/effort: much less stretching (#1 original motivation due mostly to
+`m`), fewer redirects, better SFBs, near-perfect L-R hand balance, etc. (Only
+ever tried with matrix-like keyboard.) The flagship recommended variant is
+called ["Mrs. PB&J"](#pbj) and is described a ways down.
 
 > **WARNING:** _This is a long read. But messing with your layout is a huge
 > commitment impacting potentially thousands of hours. So if you're seriously
@@ -200,7 +200,7 @@ Oooor, just move `m` to thumb and you're done.
 Fun fact: `m` is the [first letter][2] of a lot of words, and I think that
 makes it a pretty good thumb letter for faster learning.
 
-## About the big (and small) moves
+## About the big (and small) moves (from Colemak)
 
 - `a` — OK, it's annoying to use right-hand for `Ctrl-a` (select-all). But
   it's only an issue because your right hand is on the mouse, so just
@@ -233,7 +233,9 @@ makes it a pretty good thumb letter for faster learning.
   we want a "vowel hand". `o` can't stay on right-pinky because of the awful
   `you` redirect. `o` can't go above or below `e` because `one` would be even
   worse than `you`. And anywhere else, SFBs go crazy. So either `n` or `o`
-  ends up losing its place on the vowel hand.
+  ends up losing its place on the vowel hand. After a few weeks of `o` on
+  thumb, it felt perfectly natural, just like any other finger, just like we
+  all know how to press the spacepar already.
 
 - `b` — Kinda hard adjustment, but feels amazing. On this layout: if you feel
   yourself stretching, you're probably reaching for the wrong key.
@@ -246,6 +248,10 @@ makes it a pretty good thumb letter for faster learning.
 - `z`/`q`/`x` — Doesn't matter much where you put them. Move them around to
   your taste, but probaply keep `q` on the left (since `u` will logjam the
   right). I guess `z` on right is slightly annoying for _undo_ but NBD.
+
+- `p` — This only applies to PB&J, and even for that it's optional. It never
+  was good on left-index (as in Colemak), so the move is recommended (for SFBs
+  and hand balance) but not necessary.
 
 ## Compelling Features
 
@@ -338,7 +344,7 @@ W L c d k   z h , . /
         o
 ```
 
-I like the feel of `wl` on bottom (and `vx` on top). I did some
+I personally like the feel of `wl` on bottom (and `vx` on top). I did some
 hand-calculating to conclude that it is indeed better for travel distance to
 put `l` on the bottom (with `c` and `d` so near and dear). And then `w` needs
 to be next to `l`. _You_ might want to keep `vx` on the bottom for cut/paste
@@ -348,12 +354,12 @@ now. Lots of folks believe you shouldn't put high loads on non-index
 bottoms, but I find it pretty comfortable with an active thumb-`o` already
 down there.
 
-This makes for something of a secondary left-hand "home row" in `wlcdk`. Those
-co-occur well together to minimize travel. And then the left-top row has
-minimal work to do, similar to right-bottom. That makes for an interesting
-asymmetry (low left, high right), but I don't see it causing problems. This is
-Colemak's fault for putting `c` and `d` on bottom, and it's hard to change
-(and not necessary).
+This makes for something of a secondary hi-freq left-hand "home row" in
+`wlcdk` (14% freq). Those co-occur well together to minimize travel. And then
+the left-top row has minimal work to do, similar to right-bottom. That makes
+for an interesting asymmetry (low left, high right), but I don't see it
+causing problems. This is Colemak's fault for putting `c` and `d` on bottom,
+and it's hard to change (and not necessary).
 
 Another advantage of `wl` on bottom is that `rl` is an easy downward alt
 (ring-over-middle), whereas the opposite is clumsy (ring and pinky, without
@@ -406,8 +412,8 @@ w l c d k   z h , . /
 
 If you did _PB&J-ii_ (`v` on top), you have the option to go back to `w l f`
 also on top which was always an easier change, and pleases the
-"strong-top-row" gods (and I think you can still swap the `v` and `p` for one
-less thing to learn):
+"strong-top-row" and Emacs and Ctrl-x/cut gods. Note that `wlfvq` is 9% row
+compared to the above prior's `wlcdk` at 14%.
 
 ```
 W L f V q   j P u y '
@@ -416,7 +422,9 @@ m r s t g   B n e a i
         o
 ```
 
-Or:
+Or you can still swap the `v` and `p` for one less thing to learn, but keep
+in mind that the `pt` stack was never a great thing in Colemak either and does
+make SFBs worse:
 
 ```
 W L f P q   j V u y '
