@@ -4,8 +4,8 @@ Mrs. Thumbo is a (set of) keyboard layout(s) derived from Colemak(-DH) (a
 "quick-learn" spinoff), taking ideas from more modern layouts to improve
 comfort/effort: much less stretching (#1 original motivation due mostly to
 `m`), fewer redirects, better SFBs, near-perfect L-R hand balance, etc. (Only
-ever tried with matrix-like keyboard.) The flagship recommended variant is
-called ["Mrs. PB&J"](#pbj) and is described a ways down.
+ever tried with matrix-like keyboard and English.) The flagship recommended
+variant is called ["Mrs. PB&J"](#pbj) and is described a ways down.
 
 > **WARNING:** _This is a long read. But messing with your layout is a huge
 > commitment impacting potentially thousands of hours. So if you're seriously
@@ -278,7 +278,7 @@ the following variants.
 ### Mrs. You (version without thumb-`o`):
 
 I feel that `o` on thumb is awesome _once you get used to it_.
-Yes, it's slow to type `oo` (maybe get a _repeat key?).
+Yes, it's slow to type `oo` (but you can do a [repeat][16] key).
 And Someone may come along and prove it's a terrible idea.
 I think that's unlikely, but here are a couple thumbless variants just
 in case, or if you don't have thumbs. Meow!
@@ -447,6 +447,52 @@ V l c d k   z h , . /
         o
 ```
 
+## Magic config
+
+Here are the fiddly/logjammy (or very common) words from top-1000 that I feel
+are worth macro-ing via [repeat key][16]:
+
+- `b` -> `ehind`
+- `c` -> `ontrol`
+- `d` -> `epend`
+- `g` -> `ood`
+- `h` -> `undred`
+- `i` -> `dea`
+- `j` -> `oin`
+- `k` -> `eep`
+- `n` -> `umber`
+- `p` -> `roduce`
+- `q` -> `u`
+- `w` -> `ith`
+- `k` -> `eep`
+- ` ` -> `the`
+- `,` -> ` but`
+
+In QMK this is just a matter of adding the following function, so long as you
+have a recent verion:
+
+```
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    if (record->event.pressed) {
+      int rep_count = get_repeat_key_count();
+      if (rep_count > 0) {
+        switch (keycode) {
+        case KC_SPC:  unregister_weak_mods(MOD_MASK_CSAG); SEND_STRING("the"); return false;
+        case KC_COMM: unregister_weak_mods(MOD_MASK_CSAG); SEND_STRING(" but"); return false;
+        case KC_B:    unregister_weak_mods(MOD_MASK_CSAG); SEND_STRING("ehind"); return false;
+        case KC_C:    unregister_weak_mods(MOD_MASK_CSAG); SEND_STRING("ontrol"); return false;
+        case KC_D:    unregister_weak_mods(MOD_MASK_CSAG); SEND_STRING("epend"); return false;
+        // ...
+        }
+      }
+    }
+    return true;
+}
+```
+
+The rest are either repeats (`ll`, `ee`, `ss`, `oo`, `tt`, `ff`, `rr`, `nn`)
+or no-ops.
+
 ## How Mrs. Thumbo was designed (thank yous!!)
 
 Lots of studying of existing layouts at [Cyanophage][1], and using the _Edit_
@@ -575,6 +621,7 @@ gives some context for one attempt at easier alt-fingering, using QMK:
 [13]: https://sites.google.com/alanreiser.com/handsdown/home
 [14]: https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/
 [15]: https://apps.apple.com/my/app/keybuild/id1547174534
+[16]: https://github.com/qmk/qmk_firmware/blob/master/docs/feature_repeat_key.md
 
 ## Coming from QWERTY
 
